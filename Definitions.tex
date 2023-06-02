@@ -34,43 +34,186 @@
 \chapter*{Определения}
 
 \section{Формула Тейлора}
-Текст
+
+Предисловие: Пусть $f:(a;b)\rightarrow\mathbb{R}, \ x_0 \in (a;b)$.
+
+Нужно построить многочлен $P(x;x_0)$ вида:
+\begin{equation*}
+    P(x;x_0) = a_0 + a_1(x - x_0) + a_2(x - x_0)^2 + \ldots + a_n(x - x_0)^n;
+\end{equation*}
+
+$f(x) - P(x;x_0) = r_n(x;x_0)$ - $n$-ый остаточный член в формуле Тейлора.
+
+\begin{definition}
+    \textbf{Остаточные члены в форме Пеано} имеют вид:
+    \begin{equation*}
+        r_n(x;x_0) = \underset{x\rightarrow x_0}{o}(x-x_0)^n
+    \end{equation*}
+\end{definition}
+
+\begin{definition}
+    Пусть $f:(a;b)\rightarrow\mathbb{R}, \ x_0 \in (a;b), \ f(x)$ имеет в точке $x_0$ производные
+    до $n$-го порядка включительно.
+
+    \textbf{Многочленом Тейлора} (полиномом) функции $f(x)$ в точке $x_0$ называется многочлен
+    \begin{equation*}
+        P(x;x_0) = f(x_0) + \frac{f'(x_0)}{1!}(x-x_0) + \frac{f''(x_0)}{2!}(x-x_0)^2 + \ldots +
+        \frac{f^{(n)}(x_0)}{n!}(x-x_0)^n
+    \end{equation*}
+\end{definition}
 
 \section{Теорема о существовании и единственности многочлена Тейлора}
-Текст
+
+\begin{theorem}
+    Пусть $f:(a;b)\rightarrow\mathbb{R}, \ x_0\in(a;b), \ f$ имеет в точке $x_0$ производные
+    до $n$-го порядка включительно, тогда $\exists !$ многочлен вида:
+    \begin{equation*}
+        P(x;x_0) = a_0 + a_1(x-x_0) + \ldots + a_n(x-x_0)^n
+    \end{equation*}
+    такой, что
+    \begin{equation*}
+        f(x) - P(x;x_0) = \underset{x\rightarrow x_0}{o}((x-x_0)^n)
+    \end{equation*}
+\end{theorem}
 
 \section{Формула Тейлора с остаточным членом в форме Пеано, Коши и Лагранжа}
-Текст
+
+Пусть $f(x) = P(x;x_0) + r_2(x;x_0)$.
+
+\begin{theorem}
+    Пусть $Q = [x;x_0], \ Q^o = (x;x_0); \ f: Q\rightarrow \mathbb{R}:$
+    \begin{enumerate}
+        \item $f, \ f', \ \ldots, \ f^{(n)}$ непрерывны на $Q$;
+        \item $f$ имеет производную $(n+1)$-го порядка на $Q^o$.
+    \end{enumerate}
+
+    Далее, $\phi: Q \rightarrow \mathbb{R}$:
+    \begin{enumerate}
+        \item $\phi$ - непрерывна на $Q$;
+        \item $\phi$ - дифференцируема на $Q^o$;
+        \item $\phi'(t) \ne 0 \ \forall t \in Q^o$.
+    \end{enumerate}
+
+    Тогда $\exists \xi \in Q^o:$
+    \begin{equation*}
+        r_n (x;x_0) = \frac{\phi(x) - \phi(x_0)}{\phi'(\xi)} * \frac{f^{(n+1)}(\xi)}{n!} * (x-\xi)^n
+    \end{equation*}
+\end{theorem}
+
+\begin{effect}
+    Теоремы:
+
+    \begin{enumerate}
+        \item Пусть $\phi(t) = x-t, \ \phi(t) = -1, \ \phi(x) = 0, \ \phi(x_0) = x-x_0$. Тогда:
+              \begin{equation*}
+                  r_n(x;x_0) = \frac{f^{(n+1)}(\xi)}{n!} * (x-\xi)^n * (x-x_0)
+              \end{equation*} - остаточный член формулы Тейлора \textbf{в форме Коши}.
+
+        \item $\phi(t) = (x-t)^{n+1}; \ \phi'(t) = (n+1)(x-t)^n(-1); \ \phi(x)=0;$
+
+              $\phi(x_0) = (x-x_0)^{n+1}$. Тогда:
+              \begin{equation*}
+                  r_n(x;x_0) = \frac{-(x-x_0)^{n+1}}{(n+1)!(x-\xi)^n} * f^{(n+1)}(\xi) * (x-\xi)^n =
+                  \frac{f^{(n+1)}(\xi)(x-x_0)^{n+1}}{(n+1)!}
+              \end{equation*}
+              - остаточный член в формуле Тейлора \textbf{в форме Лагранжа}.
+    \end{enumerate}
+\end{effect}
 
 \section{Разложение основных функций по формуле Тейлора}
-Текст
+
+Я не понимаю откуда это
 
 \section{Теорема о связи знака производной с монотонностью функции}
-Текст
+
+\begin{statement}[связь знака производной с монотонностью]
+    Пусть $f:(a;b)\rightarrow\mathbb{R}$ дифференцируема на $(a;b)$. Тогда знак производной
+    функции связан с монотонностью следующим образом:
+    \begin{enumerate}
+        \item $f'(x)>0 \implies f(x)$ - возрастает $\implies f'(x) \geqslant 0$;
+        \item $f'(x)\geqslant0 \implies f(x)$ - не убывает $\implies f'(x) \geqslant 0$;
+        \item $f'(x)=0 \implies f(x)$ - const $\implies f'(x) = 0$;
+        \item $f'(x)<0 \implies f(x)$ - убывает $\implies f'(x) \geqslant 0$;
+        \item $f'(x)\leqslant0 \implies f(x)$ - не возрастает $\implies f'(x) \geqslant 0$;
+    \end{enumerate}
+\end{statement}
 
 \section{Необходимое условие локального экстремума}
-Текст
+
+Пусть $f:(a;b)\rightarrow\mathbb{R}, \ x_0$ - точка внутреннего локального экстремума. Либо
+$f'(x_0) = 0$, либо $f'(x_0) \ \nexists$.
 
 \section{Достаточное условие локального экстремума в терминах первой производной}
-Текст
+
+\begin{statement}[достаточное условие локального экстремума в терминах первой производной]
+    Пусть $f:(a;b)\rightarrow\mathbb{R}, \ f$ - непрерывна на $(a;b)$, дифференцируема везде,
+    кроме точки $x_0, \ x_0 \in (a;b)$. Тогда:
+    \begin{enumerate}
+        \item Если $\forall x < x_0 \ f'(x) > 0$ и $x > x_0 \ f'(x)<0$, то $x_0$ - точка
+              локального максимума;
+        \item Если $\forall x < x_0 \ f'(x) < 0$ и $x > x_0 \ f'(x)>0$, то $x_0$ - точка
+              локального минимума;
+        \item Если $f'(x)$ - не меняет знак на $(a;b)$ (за исключением $x_0$), то в точке
+              $x_0$ - экстремумов нет.
+    \end{enumerate}
+\end{statement}
 
 \section{Достаточное условие локального экстремума в терминах высших производных}
-Текст
+
+\begin{statement}[достаточное условие локального экстремума в терминах высших производных]
+    Пусть $f:(a;b)\rightarrow\mathbb{R}$ непрерывна на $(a;b)$ и имеет производные до $n$-го
+    порядка включительно, $x_0\in (a;b)$.
+
+    Причем $f'(x_0) = f''(x_0) = \ldots = f^{(n-1)}(x_0) = 0, \ f^{(n)}(x_0) \ne 0$.
+
+    Тогда:
+    \begin{enumerate}
+        \item Если $n = 2k + 1$ (нечет.), то экстремума - нет;
+        \item Если $n = 2k$ (чет.), то при $f^{(n)}(x_0) > 0$, $x_0$ - точка локального
+              минимума, если $f^{(n)}(x_0) < 0$, то $x_0$ - точка локального максимума.
+    \end{enumerate}
+\end{statement}
 
 \section{Функция, выпуклая вверх (вниз)}
-Текст
+
+\begin{definition}
+    Пусть $f:(a;b) \rightarrow \mathbb{R}$. Будем говорить, что $f(x)$ - \textbf{выпукла вниз (вверх)},
+    если $\forall x_1,x_2 \in (a;b)$:
+    \begin{equation*}
+        f(\lambda_1x_1 + \lambda_2x_2) \leqslant \lambda_1f(x_1) + \lambda_2f(x_2)
+    \end{equation*}
+    \begin{equation*}
+        (f(\lambda_1x_1 + \lambda_2x_2) \geqslant \lambda_1f(x_1) + \lambda_2f(x_2))
+    \end{equation*}, при этом $\lambda_1,\lambda_2 > 0$ и $\lambda_1 + \lambda_2 = 1$.
+\end{definition}
 
 \section{Геометрический смысл выпуклости вверх (вниз) функции}
-Текст
+
+Это в тетради смотреть, не хочу столько печатать
 
 \section{Критерий выпуклости в терминах первой производной}
-Текст
+
+\begin{statement}[критерий выпуклости в терминах первой производной]
+    Пусть $f:(a;b)\rightarrow\mathbb{R}$ дифференцируема на $(a;b)$. $f$ - выпукла вниз на $(a;b)
+        \iff f'(x)$ - не убывает на $(a;b), \ f$ - выпукла вверх на $(a;b) \iff f'(x)$ - не возрастает
+    на $(a;b)$. Строгая выпуклость функции соответствует строгой монотонности производной.
+\end{statement}
 
 \section{Критерий выпуклости в терминах касательной}
-Текст
+
+\begin{effect}
+    Пусть функция $f:(a;b)\rightarrow \mathbb{R}$ дважды дифференцируема на $(a;b)$. Тогда:
+    \begin{itemize}
+        \item $f(x)$ выпукла вниз на $(a;b) \iff \forall x \in (a;b) \ f''(x) \geqslant 0$;
+        \item $f(x)$ выпукла вверх на $(a;b) \iff \forall x \in (a;b) \ f''(x) \leqslant 0$.
+    \end{itemize}
+
+    Строгая выпуклость соответствует строгому неравенству.
+\end{effect}
 
 \section{Критерий выпуклости в терминах высших производных}
-Текст
+
+У меня есть только в терминах первой, второй производной и в терминах касательной..
 
 \section{Первообразная}
 
@@ -1276,58 +1419,267 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
 \end{effect}
 
 \section{Условно сходящийся несобственный интеграл}
-Текст
+
+\begin{definition}
+    Если $\int_{a}^{\omega}| f(x) |dx$ расходится, а $\int_{a}^{\omega}f(x)dx$ сходится, то $\int_{a}^{\omega}$
+    называется \textbf{условно сходящимся}.
+\end{definition}
 
 \section{Признак Абеля}
-Текст
+
+\begin{theorem}[признак Абеля]
+    Если:
+    \begin{enumerate}
+        \item $\int_{a}^{\omega}$ сходится,
+        \item $g(x)$ монотонна и ограничена на $[a;\omega)$,
+    \end{enumerate}
+    то $\int_{a}^{\omega} f(x)g(x)dx$ - сходится.
+\end{theorem}
 
 \section{Признак Дирихле}
-Текст
+
+\begin{theorem}[признак Дирихле]
+    Если:
+    \begin{enumerate}
+        \item Функция $F(b) = \int_{a}^{b}f(x)dx$ ограничена на $[a;\omega)$, то есть $\exists M > 0: \
+                  \forall b \in[a;\omega)$
+              \begin{equation*}
+                  | \int_{a}^{b}f(x)dx | \leqslant M,
+              \end{equation*}
+        \item $g(x)$ - монотонна на $[a;\omega)$ и $g(x)\rightarrow 0$ при $x\rightarrow\omega$.
+              Тогда $\int_{a}^{\omega}f(x)g(x)dx$ - сходится.
+    \end{enumerate}
+\end{theorem}
 
 \section{Теорема о замене переменной в несобственном интеграле}
-Текст
+
+\begin{theorem}[о замене переменной в несобственном интеграле]
+    Пусть $\forall b \in [a;\omega), \ f \in C[a;b]$ (множество непрерывных функций), функция $x = \phi(t):$
+    \begin{enumerate}
+        \item $\phi: \ [\alpha;\omega_1) \rightarrow [a;\omega)$,
+        \item $\phi(\alpha) = a$, при $t \rightarrow \omega_1, \ \phi(t) \rightarrow \omega$,
+        \item $\phi(t)$ монотонно возрастает на $[\alpha;\omega_1)$,
+        \item $\phi'(t)$ непрерывна на $[\alpha;\omega_1)$,
+    \end{enumerate}
+    Тогда интегралы $\int_{a}^{\omega}f(x)dx$ и $\int_{\alpha}^{\omega_1}f(\phi(t))\phi'(t)dt$ ведут себя
+    одинаково и равны между собой.
+\end{theorem}
 
 \section{Линейное пространство}
-Текст
+
+\begin{definition}
+    \textbf{Линейным пространством} называется четверка $(X,K,+,*)$, где $X$ - множество, $K$ - поле, $"+"$ -
+    операция сложения на $X$ ($"+": \ X \times X \rightarrow X$), $"*"$ - операция умножения элемента поля $K$
+    на элемент множества $X$ ($"*": \ K \times X \rightarrow X$).
+
+    При этом выполняются следующие аксиомы:
+    \begin{enumerate}
+        \item $<X,+>$ - абелева группа;
+        \item
+              \begin{enumerate}
+                  \item $\forall \alpha,\beta \in K$ и $\forall x \in X \quad (\alpha\beta)x = \alpha(\beta X)$,
+                  \item $\forall x,y \in X, \ \forall \alpha \in K \quad \alpha (x+y) = \alpha x + \alpha y$,
+                  \item $\forall \alpha,\beta \in K, \forall x \in X \quad (\alpha + \beta)x = \alpha x + \beta x$,
+                  \item $\forall x \in X, \ 1 \in K \quad 1x = x$.
+              \end{enumerate}
+    \end{enumerate}
+\end{definition}
 
 \section{Линейное нормированное пространство. Норма}
-Текст
+
+\begin{definition}
+    \textbf{Линейным нормированным пространством} называется пара $(X,||*||)$, где $X$ - линейное пространство
+    над полем $\mathbb{R}$, а $||*||$ - функция из $X$ в $\mathbb{R}$.
+
+    $||*||: \ X \rightarrow \mathbb{R}$, причем выполнены следующие аксиомы для нее:
+    \begin{enumerate}
+        \item $||x|| = 0 \iff x = \overline{0}$ (читается "норма от $x$"),
+        \item $\forall \lambda \in \mathbb{R} \ ||\lambda x|| = |\lambda| * ||x||$,
+        \item $\forall x,y \in X \ ||x+y|| \leqslant ||x|| + ||y||$ (неравенство треугольника).
+    \end{enumerate}
+    Функция $||*||$ называется \textbf{нормой}.
+\end{definition}
 
 \section{Примеры линейных нормированных пространств (ЛНП)}
-Текст
+
+\begin{example}
+    ЛНП:
+
+    \begin{enumerate}
+        \item $X = \mathbb{R}, \ \forall x \in X \quad ||x|| = |x|$ (норма = модулю по свойствам нормы),
+        \item $X = \mathbb{R}^n = \mathbb{R} \times \mathbb{R} \times \ldots \times \mathbb{R}$ ($n$ раз),
+              $\forall x \in X \ ||x|| = (\sum_{k=1}^{n}a_k^2)^\frac{1}{2}, \ x = (a_1,\ldots,a_n) \in X$.
+              Покажем, что это норма:
+
+              $1.,2.$ - очевидно. Докажем, что $\forall x,y \in X \ ||x+y|| \leqslant ||x||x + ||y||$, то есть
+              докажем, что $(\sum_{k=1}^{n}(x_k + y_k)^2)^\frac{1}{2} \leqslant (\sum_{k=1}^{n}x_k^2)^\frac{1}{2}
+                  + (\sum_{k=1}^{n}y_k^2)^\frac{1}{2} \ (\triangle)$.
+
+              Рассмотрим $\sum_{k=1}^{n}(x_k + y_k)^2 = \sum_{k=1}^{n}x_k^2 + 2\sum_{k=1}^{n}x_k y_k + \sum_{k=1}^{n}
+                  y_k^2 \leqslant |$ используем неравенство Назарова-Заблоцкого (Коши-Буньковского) $ \sum_{k=1}^{n}x_k y_k \leqslant
+                  (\sum_{k=1}^{n}x_K^2)^\frac{1}{2}(\sum_{k=1}^{n}y_k^2)^\frac{1}{2}| \leqslant \sum_{k=1}^{n}x_k^2 +
+                  2(\sum_{k=1}^{n}x_k^2)^\frac{1}{2}(\sum_{k=1}^{n}y_k^2)^\frac{1}{2} + \sum_{k=1}^{n}y_k^2 =
+                  [(\sum_{k=1}^{n}x_k^2)^\frac{1}{2} + (\sum_{k=1}^{n}y_k^2)^\frac{1}{2}]^2$.
+
+              Имеем:
+              \begin{equation*}
+                  \sum_{k=1}^{n}(x_k + y_k)^2 \leqslant [(\sum_{k=1}^{n}x_k^2)^\frac{1}{2} + (\sum_{k=1}^{n}y_k^2)^\frac{1}{2}]^2 \implies
+              \end{equation*}
+              приходим к $(\triangle)$ операцией взятия корня от обеих частей неравенства
+              \begin{equation*}
+                  \implies (\sum_{k=1}^{n}(x_k + y_k)^2)^\frac{1}{2} \leqslant (\sum_{k=1}^{n}x_k^2)^\frac{1}{2} +
+                  (\sum_{k=1}^{n}y_k^2)^\frac{1}{2}.
+              \end{equation*}
+        \item $X = \mathbb{R}^n, \ \forall x = (x_1,\ldots,x_n)\in X \quad ||x|| = \underset{k=\overline{1,n}}{\max}
+                  |x_k|$.
+
+              \begin{center}
+                  Такое ЛНП обозначается $\mathbb{R^n_\infty}$.
+              \end{center}
+        \item $X = \mathbb{R}^n, \ \forall x = (x_1,\ldots, x_n) \in X \quad ||x|| = (\sum_{k=1}^{n}x_k^p)^\frac{1}{p},
+                  \ p > 1$.
+
+              Упражнение: доказать, что введенная функция есть норма, используя неравенство Левановича (Гельдера):
+              \begin{equation*}
+                  \sum_{k=1}^{n}x_k y_k \leqslant (\sum_{k=1}^{n}x_k^p)^\frac{1}{p} (\sum_{k=1}^{n}y_k^p)^\frac{1}{p}.
+              \end{equation*}
+
+        \item $X$ - пространство непрерывных на $[a;b]$ функций, то есть $X = C[a;b], \ \forall x \in X
+                  \quad ||x|| = \underset{t \in [a;b]}{\max}|x(t)|$; 1,2,3 - почти очевидно.
+
+        \item $X = C[a;b], \ \forall x \in X \quad ||x|| = \int_{a}^{b}|x(t)|dt$.
+
+              Покажем, что введенная функция есть норма:
+              \begin{enumerate}
+                  \item $||x(t)|| = 0 \iff x(t) = 0$;
+
+                        Пусть $\int_{a}^{b}|x(t)|dt = 0$. От противного. Допустим, что $\exists t_0 \in [a;b]: \ x(t_0) \ne 0$.
+                        Тогда $\exists t_0 \in [\alpha;\beta], \ [\alpha;\beta] \subset [a;b]$ и $\forall t \in [\alpha;\beta]
+                            \quad |x(t)| > 0$,
+                        \begin{equation*}
+                            \int_{a}^{b}x(t)|dt \geqslant \int_{\alpha}^{\beta}|x(t)|dt
+                        \end{equation*}
+                        Противоречие $\implies \forall t \in [a;b] \ |x(t)| = 0$.
+
+                  \item $|| \lambda x || = | \lambda | * || x ||$ (из свойств определенного интеграла);
+                  \item $|| x+y || \leqslant || x || + || y ||$ (из свойств определенного интеграла);
+              \end{enumerate}
+        \item $X = C[a;b]$.
+    \end{enumerate}
+\end{example}
 
 \section{Метрика ЛНП}
-Текст
+
+ЛНП ($C[a;b], || x || (*)$) образначается $C^p[a;b]$.
+
+\begin{statement}
+    Пусть $(X,|| * ||)$ - ЛНП. Тогда функция $\rho X \times X \rightarrow \mathbb{R}$, опредленная $\rho(x,y)
+        = || x-y ||$, является метрикой ЛНП.
+\end{statement}
 
 \section{Банахово ЛНП. Примеры}
-Текст
+
+\begin{definition}
+    Если линейное нормированное пространство является полным относительно введенной метрики, то оно называется
+    \textbf{банахово}.
+
+    ($X$ - полное, если $\forall$ фундаментальная последовательность сходится).
+\end{definition}
+
+\begin{example}
+    (банаховых пространств)
+
+    \begin{enumerate}
+        \item $X = \mathbb{R}$ - банахово;
+        \item $X = C[a;b], \ ||x|| = \underset{t \in [a;b]}{\max}|x(t)|$;
+        \item $C_p[a;b]$ - ЛНП, $X = C[a;b]$,
+              \begin{equation*}
+                  ||x|| = (\int_{a}^{b}|x(t)|^p dt)^\frac{1}{p}.
+              \end{equation*}
+    \end{enumerate}
+\end{example}
 
 \section{Теорема о вложенных шарах}
-Текст
+
+\begin{theorem}[о вложенных шарах]
+    Метрическое пространство (МП) является полным $\iff \forall$ последовательность вложенных замкнутых шаров,
+    радиусы которых стремятся к нулю, имеют в нем непустое пересечение.
+\end{theorem}
 
 \section{Сжимающее отображение}
-Текст
+
+\begin{definition}
+    Пусть $(X,\rho_X), \ (Y,\rho_Y)$ - МП. Отображение $f:X\rightarrow Y$ называется \textbf{сжимающим},
+    если $\exists 0 \leqslant \alpha < 1: \ \forall x_1,x_2 \in X$
+    \begin{equation*}
+        \rho_Y(f(x_1),f(x_2)) \leqslant \alpha * \rho_X(x_1,x_2).
+    \end{equation*}
+\end{definition}
 
 \section{Принцип сжимающих отображений}
-Текст
+
+\begin{theorem}[принцип сжимающих отображений]
+    Сжимающее отображение полного МП в себя имеет единственную неподвижную точку, то есть если
+    $(X,\rho)$ - полное, отображение $f:X\rightarrow X$ - сжимающее, то
+    \begin{equation*}
+        \exists ! a \in X: \quad f(a) = a.
+    \end{equation*}
+\end{theorem}
 
 \section{Предкомпактное множество в МП}
-Текст
+
+\begin{definition}
+    Множество $E$ в метрическом пространстве называется \textbf{предкомпактным} (\textbf{относительно компактным}),
+    если ее замыкание $\overline{E}$ компактно.
+\end{definition}
 
 \section{Вполне ограниченное множество}
-Текст
+
+\begin{definition}
+    Множество $E$ в МП $(X,\rho)$ называется \textbf{вполне ограниченным}, если $\forall \epsilon > 0 \ \exists$
+    конечная $\epsilon$-сеть для $E$.
+
+    Напоминание: $\epsilon$-сеть - набор $\{x_1,\ldots,x_n \ | \ x_i \in E\} \ \forall x \in E \ \exists$ хотя бы
+    одна точка $x_i: \ \rho(x,x_i) < \epsilon$.
+\end{definition}
 
 \section{Теорема Хаусдорфа}
-Текст
+
+\begin{theorem}[Хаусдорфа]
+    Множество $E$ в полном МП $(X,\rho)$ ялвяется предкомпактным $\iff$ оно вполне ограничено.
+\end{theorem}
 
 \section{Теорема о полноте $\mathbb{R}^n$}
-Текст
+
+\begin{theorem}
+    Пространство $\mathbb{R}^n$ (n-мерное линейное пространство с евклидовой метрикой),
+    \begin{center}
+        $||x|| = (\sum_{i=1}^{n} (x^i)^2)^\frac{1}{2}$ - полное
+    \end{center}
+\end{theorem}
 
 \section{Критерий компактности $\mathbb{R}^n$}
-Текст
+
+\begin{theorem}[критерий компактности в $\mathbb{R}^n$]
+    Множество $E \subset \mathbb{R}^n$ компактно $\iff$ замкнуто и ограничено.
+\end{theorem}
 
 \section{Эквивалентность норм в $\mathbb{R}^n$}
-Текст
+
+\begin{definition}
+    Пусть $(X, ||*||_1),(X, ||*||_2)$ - линейное нормированное пространство (конечномерное). Говорят, что $||*||_1
+        \sim ||*||_2$ (эквивалентны), если $\exists c_1,c_2 > 0 \ (c_1,c_2 \in \mathbb{R}):$
+    \begin{equation*}
+        \forall x \in X \quad c_1 * ||x||_2 \leqslant ||x||_1 \leqslant c_2 * ||x||_2 \quad (*)
+    \end{equation*}
+\end{definition}
+
+\begin{theorem}[эквивалентность норм в конечномерном пространстве]
+    Если $X$ - конечномерное пространство МП, и $||*||_1, \ ||*||_2$ - две нормы на нем, то:
+    \begin{equation*}
+        ||*||_1 \sim ||*||_2
+    \end{equation*}
+\end{theorem}
 
 \section{Линейные отображения в конечномерных пространствах}
 Текст

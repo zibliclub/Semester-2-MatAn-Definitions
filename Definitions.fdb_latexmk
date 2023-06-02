@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1684351308 "d:/latex/GitHub/Semester-2-MatAn-Definitions/Definitions.tex" "Definitions.pdf" "Definitions" 1684351313 0
+["pdflatex"] 1685733390 "d:/latex/GitHub/Semester-2-MatAn-Definitions/Definitions.tex" "Definitions.pdf" "Definitions" 1685733395 0
   "C:/Users/zibli/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1679902590 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/zibli/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1679133366 11548 e562e517996df7262f62c201469d09ff ""
   "C:/Users/zibli/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk" 1679133372 23468 1465e9a6a7b340a5e699052adc72f9a7 ""
@@ -62,6 +62,7 @@
   "C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1247596673 31764 459c573c03a4949a528c2cc7f557e217 ""
   "C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb" 1247596673 33366 60462f3d16c3d0f024f1f856e64b09cd ""
   "C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1247596673 34694 870c211f62cb72718a00e353f14f254d ""
+  "C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb" 1247596673 35309 940e81a5b9e04201a07e8b33a3ae6e64 ""
   "C:/Users/zibli/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/zibli/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "C:/Users/zibli/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty" 1676305192 151363 1f5971af3ef874d432e8fb43e0edb71d ""
@@ -131,11 +132,11 @@
   "C:/Users/zibli/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1667242266 10214 de3e21cfc0eccc98ca7f8dac0ef263d2 ""
   "C:/Users/zibli/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/zibli/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
-  "Definitions.aux" 1684351313 24398 508c0a6f47a1785c0dfe4cec761a9603 "pdflatex"
-  "Definitions.out" 1684351313 44560 601789a5b028b6e3b4a24fce9b3bd752 "pdflatex"
-  "Definitions.tex" 1684351301 70368 999775c8898dfb2f602237ef085c80f7 ""
-  "Definitions.toc" 1684351313 17759 e110546867c169d4456870450499547e "pdflatex"
-  "d:/latex/GitHub/Semester-2-MatAn-Definitions/Definitions.tex" 1684351301 70368 999775c8898dfb2f602237ef085c80f7 ""
+  "Definitions.aux" 1685733394 24401 4543e92990f4fbaae14d030d26a2b5f5 "pdflatex"
+  "Definitions.out" 1685733394 44560 601789a5b028b6e3b4a24fce9b3bd752 "pdflatex"
+  "Definitions.tex" 1685733383 91227 e46c603b311462225def73ff0aa1e1ab ""
+  "Definitions.toc" 1685733394 17762 5851c294d30c2e1af5b1fb6a2d627441 "pdflatex"
+  "d:/latex/GitHub/Semester-2-MatAn-Definitions/Definitions.tex" 1685733383 91227 e46c603b311462225def73ff0aa1e1ab ""
   "graph1.png" 1679992403 15614 ecb8ed2af3b25bb5508758b001f1b15b ""
   "graph10.png" 1682400142 10774 61286f6aa88d6c3a2500e899e72adaf4 ""
   "graph12.png" 1682400700 12346 e9518f12e62ced96501e62ddecba4c1d ""
