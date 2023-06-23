@@ -122,7 +122,18 @@ $f(x) - P(x;x_0) = r_n(x;x_0)$ - $n$-ый остаточный член в фо�
 
 \section{Разложение основных функций по формуле Тейлора}
 
-Я не понимаю откуда это
+\begin{enumerate}
+    \item $e^x = 1 + x + \frac{x^2}{2} + \frac{x^3}{3!} + \ldots + \frac{x^n}{n!} + \underset{x\rightarrow0}
+              {o}(x^n)$
+    \item $\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \ldots + (-1)^{n-1}\frac{x^{2n+1}}{(2n+1)!} +
+              \underset{x\rightarrow0}{o}(x^{2n-1})$
+    \item $\cos x = 1 - \frac{x^2}{2} + \frac{x^4}{4!} - \ldots + (-1)^n\frac{x^{2n}}{(2n)!} +
+              \underset{x\rightarrow0}{o}(x^{2n})$
+    \item $\ln (1+x) = x - \frac{x^2}{2} + \frac{x^3}{3!} - \ldots + (-1)^{n-1}\frac{x^n}{n!} +
+              \underset{x\rightarrow0}{o}(x^n)$
+    \item $(1+x)^\alpha = 1 + \alpha x + \frac{\alpha (\alpha - 1)}{\alpha !} x^2 + \ldots +
+              \frac{\alpha(\alpha-1)(\alpha-2)\ldots(\alpha - (n-1))}{n!}x^n + \underset{x\rightarrow0}{o}(x^n)$
+\end{enumerate}
 
 \section{Теорема о связи знака производной с монотонностью функции}
 
@@ -133,8 +144,8 @@ $f(x) - P(x;x_0) = r_n(x;x_0)$ - $n$-ый остаточный член в фо�
         \item $f'(x)>0 \implies f(x)$ - возрастает $\implies f'(x) \geqslant 0$;
         \item $f'(x)\geqslant0 \implies f(x)$ - не убывает $\implies f'(x) \geqslant 0$;
         \item $f'(x)=0 \implies f(x)$ - const $\implies f'(x) = 0$;
-        \item $f'(x)<0 \implies f(x)$ - убывает $\implies f'(x) \geqslant 0$;
-        \item $f'(x)\leqslant0 \implies f(x)$ - не возрастает $\implies f'(x) \geqslant 0$;
+        \item $f'(x)<0 \implies f(x)$ - убывает $\implies f'(x) \leqslant 0$;
+        \item $f'(x)\leqslant0 \implies f(x)$ - не возрастает $\implies f'(x) \leqslant 0$;
     \end{enumerate}
 \end{statement}
 
@@ -1057,10 +1068,6 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
 
 \section{Ломаная, вписанная в кривую}
 
-Это мне походу было впадлу писать
-
-\section{Периметр ломаной, вписанной в кривую}
-
 \begin{definition}
     Пусть $l \subset \mathbb{R}^2 \ (\mathbb{R}^3)$ и $\gamma:[\alpha,\beta]\rightarrow\mathbb{R}^2 \
         (\mathbb{R}^3)$ - параметризация кривой $l$.
@@ -1071,8 +1078,12 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
         M_i = \gamma (t_i) = (x(t_i);y(t_i))
     \end{equation*}
     Тогда отрезок $M_{i-1}M_i \ (i = \overline{1,n})$ называется \textbf{звеном} кривой $l$.
-    Объединение $\underset{i}{\cap}M_{i-1}M_i$ - ломаная, вписанная в $l$.
+    Объединение $\underset{i}{\cap}M_{i-1}M_i$ - \textbf{ломаная, вписанная в $l$}.
+\end{definition}
 
+\section{Периметр ломаной, вписанной в кривую}
+
+\begin{definition}
     \textbf{Периметром} ломаной называется сумма длин ее звеньев:
     \begin{equation*}
         p(M_0,M_1,\ldots,M_n) = \sum_{i=1}^{n}| M_{i-1}M_i |
@@ -1087,6 +1098,8 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
         \end{minipage}
     \end{figure}
 \end{definition}
+
+\clearpage
 
 \section{Спрямляемая кривая}
 
@@ -1351,7 +1364,31 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
 
 \section{Свойства несобственного интеграла}
 
-Не нашел
+\begin{theorem}
+    Пусть $\forall b\in [a;\omega) \ f\in R[a;b]$.
+    \begin{enumerate}
+        \item Тогда $\int_{a}^{\omega}f(x)dx$ сходится $\iff \ \forall
+                  b\in[a;\omega) \ \int_{b}^{\omega}f(x)dx$ сходится и
+              \begin{equation*}
+                  \int_{a}^{\omega}f(x)dx = \int_{a}^{b}f(x)dx + \int_{b}^{\omega} f(x)dx
+              \end{equation*}
+              {\Large РИСУНОК}
+        \item
+              \begin{equation*}
+                  \underset{b\rightarrow\omega}{\lim}\int_{b}^{\omega}f(x)dx = 0
+              \end{equation*}
+        \item $\forall c \in \mathbb{R}$
+              \begin{equation*}
+                  \int_{a}^{\omega}cf(x)dx = c\int_{a}^{\omega}f(x)dx
+              \end{equation*}
+              (то есть если $c\int_{a}^{\omega}f(x)dx$ сходится, то сходится $\int_{a}^{\omega}c(x)dx$ и наоборот,
+              и они равны)
+        \item Если $\int_{a}^{\omega}f(x)dx$ и $\int_{a}^{\omega}g(x)dx$ сходятся, то сходится и
+              \begin{equation*}
+                  \int_{a}^{\omega}(f(x) + g(x))dx = \int_{a}^{\omega}f(x)dx + \int_{a}^{\omega}g(x)dx
+              \end{equation*}
+    \end{enumerate}
+\end{theorem}
 
 \section{Сходимость несобственного интеграла от неотрицательных функций}
 
@@ -1682,96 +1719,203 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
 \end{theorem}
 
 \section{Линейные отображения в конечномерных пространствах}
-Текст
+
+\begin{definition}
+    Пусть $X,Y$ - линейные пространства. Отображение $L: X \rightarrow Y$ называется \textbf{линейным}, если
+    $\forall x_1,x_2 \in X$ и $\alpha,\beta \in \mathbb{R}$:
+    \begin{equation*}
+        L(\alpha x_1 + \beta x_2) = \alpha * L(x_1) + \beta L(x_2) = \alpha L x_1 + \beta L x_2.
+    \end{equation*}
+\end{definition}
 
 \section{Теорема о матрице линейного отображения}
-Текст
+
+\begin{theorem}
+    Всякому линейному отображению $L:\mathbb{R}^n \rightarrow \mathbb{R}^k$ можно поставить в соответствие
+    матрицу $A$ размером $k \times n$:
+    \begin{equation*}
+        \forall x \in \mathbb{R}^n \quad L(x) = Ax.
+    \end{equation*}
+
+    При этом, если в $\mathbb{R}^n$ и $\mathbb{R}^k$ зафиксированны базисы, то матрица $A$ определяется однозначно.
+\end{theorem}
 
 \section{Теорема о непрерывности линейного отображения}
-Текст
+
+\begin{statement}
+    Если $L:\mathbb{R}^n \rightarrow \mathbb{R}^k$ - линейно, то оно непрерывно.
+\end{statement}
 
 \section{Дифференциал в точке в $\mathbb{R}^n$}
-Текст
+
+\begin{definition}
+    Пусть $D \subset \mathbb{R}^n, \ f:D\rightarrow\mathbb{R}^k$, точка $a\in D$ - предельная точка для $D$.
+
+    Отображение $f$ называется \textbf{дифференцируемым} в точке $a$, если $\forall h: \ a+h \in D \ \exists$
+    линейное отображение $L(a):\mathbb{R}^n\rightarrow\mathbb{R}^k:$
+    \begin{equation*}
+        f(a+h) - f(a) = L(a)h + o(h), \quad h\rightarrow\overline{0}.
+    \end{equation*}
+
+    Линейный оператор $L(a)$ называется \textbf{дифференциалом} (или \textbf{касательным отображением}, или
+    \textbf{производным отображением}) функции $f$ и обозначается:
+    \begin{equation*}
+        Df(x), \quad df(x)
+    \end{equation*}
+\end{definition}
 
 \section{Критерий дифференцируемости отображения в $\mathbb{R}^n$}
-Текст
+
+\begin{statement}
+    Пусть $f:D\rightarrow\mathbb{R}^k, \ D \subset \mathbb{R}^n, \ a \in D$ \\ и $f(x) = \left(
+        \begin{array}{c}
+                f^1(x) \\
+                f^2(x) \\
+                \vdots \\
+                f^k(x)
+            \end{array}
+        \right) = \left(
+        \begin{array}{c}
+                f^1(x^1,x^2,\ldots,x^n) \\
+                f^2(x^1,x^2,\ldots,x^n) \\
+                \vdots                  \\
+                f^k(x^1,x^2,\ldots,x^n) \\
+            \end{array}
+        \right)$
+
+    Отображение $f$ дифференцируемо в точке $a \iff$ отображение $f^i: D \rightarrow \mathbb{R}$ дифференцируемо
+    в точке $a$.
+\end{statement}
 
 \section{Область}
-Текст
+
+\begin{definition}
+    Множество $D\subset\mathbb{R}^n$ называется \textbf{областью}, если оно открыто и линейно связно.
+\end{definition}
 
 \section{Частная производная функции многих переменных}
-Текст
+
+\begin{definition}
+    Пусть $D$ - область в $\mathbb{R}^n, \ f:D\rightarrow\mathbb{R},$
+    \begin{equation*}
+        f(x) = f(x^1,x^2,\ldots,x^n), \quad x \in D.
+    \end{equation*}
+
+    \textbf{Частной производной} отображения $f$ точки $x \in D$ по переменной $x^i$ называется
+    \begin{equation*}
+        \underset{h^i\rightarrow 0}{\lim}\frac{f(x^1,x^2,\ldots,x^i + h^i, \ldots,x^n) - (f(x^1,x^2,\ldots,x^n))}{h^i},
+    \end{equation*}
+    если этот предел существует.
+
+    Обозначение:
+    \begin{equation*}
+        \frac{\partial f}{\partial x^i} \quad or \quad f_{x^i}'
+    \end{equation*}
+\end{definition}
 
 \section{Связь дифференциала и частных производных}
-Текст
+
+\begin{theorem}[о связи дифференциала и частных производных]
+    Если $f:D\rightarrow\mathbb{R}$ ($D$ - область в $\mathbb{R}^n$) дифференцируема в точке $x \in D$, то она
+    имеет в точке $x$ все частные производные, при этом:
+    \begin{equation*}
+        df(x)h = \frac{\partial f}{\partial x^1}h^1 + \frac{\partial f}{\partial x^2}h^2 + \ldots +
+        \frac{\partial f}{\partial x^n}h^n =
+    \end{equation*}
+    \begin{equation*}
+        =\left(\begin{array}{cccc}
+            \frac{\partial f}{\partial x^1} & \frac{\partial f}{\partial x^2} & \ldots & \frac{\partial f}{\partial x^n}
+        \end{array}\right) * \left(\begin{array}{c}
+            h^1    \\
+            h^2    \\
+            \vdots \\
+            h^n
+        \end{array}\right)
+    \end{equation*}
+
+    (здесь везде $1,2,\ldots,n$ - индексы, а не степени или производные).
+\end{theorem}
 
 \section{Матрица Якоби}
-Текст
+
+Пусть $f:\mathbb{R}^n \rightarrow \mathbb{R}^k$.
+
+\textbf{Матрицей Якоби} отображения $f$ в точке $x\in\mathbb{R}$ называется:
+\begin{equation*}
+    \mathfrak{I}(x) = \left(
+    \begin{array}{ccc}
+            \frac{\partial f^1}{\partial x^1} & \ldots & \frac{\partial f^1}{\partial x^n} \\
+            \frac{\partial f^2}{\partial x^1} & \ldots & \frac{\partial f^2}{\partial x^n} \\
+            \vdots                            & \ddots & \vdots                            \\
+            \frac{\partial f^k}{\partial x^1} & \ldots & \frac{\partial f^k}{\partial x^n}
+        \end{array}
+    \right)
+\end{equation*}
+
+Здесь $f(x) = \left(
+    \begin{array}{c}
+            f^1(x) \\
+            \vdots \\
+            f^k(x)
+        \end{array}
+    \right)$
+
+Т. обр. $df(x)h = \mathfrak{I}(x)h = \left(
+    \begin{array}{ccc}
+            \frac{\partial f^1}{\partial x^1} & \ldots & \frac{\partial f^1}{\partial x^n} \\
+            \frac{\partial f^2}{\partial x^1} & \ldots & \frac{\partial f^2}{\partial x^n} \\
+            \vdots                            & \ddots & \vdots                            \\
+            \frac{\partial f^k}{\partial x^1} & \ldots & \frac{\partial f^k}{\partial x^n}
+        \end{array}
+    \right) * \left(
+    \begin{array}{c}
+            h^1    \\
+            \vdots \\
+            h^k
+        \end{array}
+    \right) = \left(
+    \begin{array}{ccc}
+            df^1(x)h \\
+            df^2(x)h \\
+            \vdots   \\
+            df^k(x)h
+        \end{array}
+    \right)$
+
+Часто матрицу Якоби отображения $f$ будем обозначать $f'$.
 
 \section{Дифференцируемость и арифметические операции}
-Текст
+
+\begin{theorem}
+    Пусть $D\subset \mathbb{R}^n$ - область, $f:D\rightarrow\mathbb{R}^k, \ g:D\rightarrow\mathbb{R}^k,$ если
+    $f$ и $g$ дифференцируемы в точке $x\in D$, то $\forall \lambda_1,\lambda_2\in\mathbb{R}$ функция
+    $\lambda_1 f + \lambda_2 g$ дифференцируема в точке $x$, при этом:
+    \begin{equation*}
+        (\lambda_1f + \lambda_2g)' = \lambda_1f' + \lambda_2g',
+    \end{equation*}
+    где $(\lambda_1f + \lambda_2g)', \ f', \ g'$ - матрицы Якоби.
+\end{theorem}
 
 \section{Дифференцирование композиции}
-Текст
+
+\begin{theorem}[дифференцирование композиции]
+    Пусть $X$ - область в $\mathbb{R}^n$, $Y$ - область в $\mathbb{R}^m, \ f:X\rightarrow Y, \ g:Y\rightarrow\mathbb{R}^k$.
+
+    Если $f$ дифференцируема в точке $x \in X, \ g$ - дифференцируема в точке $y = f(x) \in Y$, то $g \circ f$ дифференцируема в точке $x$ и $(g \circ f)'(x) = g'(y) \cdot f'(x)$.
+\end{theorem}
 
 \section{Дифференцирование обратного отображения}
-Текст
 
-\section{Производная функции по вектору}
-Текст
+\begin{theorem}[о дифференцируемости обратного отображения]
+    Пусть $D$ - область в $\mathbb{R}^n, \ f: D \rightarrow \mathbb{R}^n:$
+    \begin{enumerate}
+        \item $f$ дифференцируемо в точке $x \in D$;
+        \item $f$ имеет обратное отображение в $D$;
+        \item $f^{-1}$ - непрерывно в точке $y = f(x)$;
+        \item $f'(x)$ - обратимая матрица.
+    \end{enumerate}
 
-\section{Теорема о существовании производной функции по вектору}
-Текст
-
-\section{Градиент функции}
-Текст
-
-\section{Производная по направлению вектора}
-Текст
-
-\section{Теорема о среднем (аналог теоремы Лагранжа).}
-Текст
-
-\section{Следствие теоремы о среднем}
-Текст
-
-\section{Достаточное условие дифференцируемости функции}
-Текст
-
-\section{Производные высших порядков}
-Текст
-
-\section{Теорема о смешанных производных}
-Текст
-
-\section{Формула Тейлора}
-Текст
-
-\section{Локальный экстремум}
-Текст
-
-\section{Необходимое условие локального экстремума}
-Текст
-
-\section{Критическая точка функции}
-Текст
-
-\section{Достаточное условие локального экстремума}
-Текст
-
-\section{Критерий Сильвестра}
-Текст
-
-\section{Неявная функция}
-Текст
-
-\section{Теорема о неявной функции}
-Текст
-
-\section{Диффиоморфизм}
-Текст
-
-\section{Теорема о неявной функции (через понятие диффиоморфизма)}
-Текст
+    Тогда $f^{-1}:f(D)\rightarrow D$ дифференцируемо в точке $y = f(x)$ и $(f^{-1})' = [f'(x)]^{-1}$.
+\end{theorem}
 
 \end{document}
