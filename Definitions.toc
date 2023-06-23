@@ -3,7 +3,7 @@
 \contentsline {section}{\numberline {0.2}Теорема о существовании и единственности многочлена Тейлора}{5}{section.0.2}%
 \contentsline {section}{\numberline {0.3}Формула Тейлора с остаточным членом в форме Пеано, Коши и Лагранжа}{5}{section.0.3}%
 \contentsline {section}{\numberline {0.4}Разложение основных функций по формуле Тейлора}{6}{section.0.4}%
-\contentsline {section}{\numberline {0.5}Теорема о связи знака производной с монотонностью функции}{6}{section.0.5}%
+\contentsline {section}{\numberline {0.5}Теорема о связи знака производной с монотонностью функции}{7}{section.0.5}%
 \contentsline {section}{\numberline {0.6}Необходимое условие локального экстремума}{7}{section.0.6}%
 \contentsline {section}{\numberline {0.7}Достаточное условие локального экстремума в терминах первой производной}{7}{section.0.7}%
 \contentsline {section}{\numberline {0.8}Достаточное условие локального экстремума в терминах высших производных}{7}{section.0.8}%
@@ -11,7 +11,7 @@
 \contentsline {section}{\numberline {0.10}Геометрический смысл выпуклости вверх (вниз) функции}{8}{section.0.10}%
 \contentsline {section}{\numberline {0.11}Критерий выпуклости в терминах первой производной}{8}{section.0.11}%
 \contentsline {section}{\numberline {0.12}Критерий выпуклости в терминах касательной}{8}{section.0.12}%
-\contentsline {section}{\numberline {0.13}Критерий выпуклости в терминах высших производных}{8}{section.0.13}%
+\contentsline {section}{\numberline {0.13}Критерий выпуклости в терминах высших производных}{9}{section.0.13}%
 \contentsline {section}{\numberline {0.14}Первообразная}{9}{section.0.14}%
 \contentsline {section}{\numberline {0.15}Неопределенный интеграл, операция интегрирования}{9}{section.0.15}%
 \contentsline {section}{\numberline {0.16}Основные методы интегрирования}{9}{section.0.16}%
@@ -67,71 +67,52 @@
 \contentsline {section}{\numberline {0.66}Гладкая параметризация кривой}{25}{section.0.66}%
 \contentsline {section}{\numberline {0.67}Ломаная, вписанная в кривую}{25}{section.0.67}%
 \contentsline {section}{\numberline {0.68}Периметр ломаной, вписанной в кривую}{25}{section.0.68}%
-\contentsline {section}{\numberline {0.69}Спрямляемая кривая}{25}{section.0.69}%
-\contentsline {section}{\numberline {0.70}Аддитивность длины кривой}{26}{section.0.70}%
-\contentsline {section}{\numberline {0.71}Длина кривой как предел}{26}{section.0.71}%
+\contentsline {section}{\numberline {0.69}Спрямляемая кривая}{27}{section.0.69}%
+\contentsline {section}{\numberline {0.70}Аддитивность длины кривой}{27}{section.0.70}%
+\contentsline {section}{\numberline {0.71}Длина кривой как предел}{27}{section.0.71}%
 \contentsline {section}{\numberline {0.72}Формула вычисления длины кривой}{27}{section.0.72}%
-\contentsline {section}{\numberline {0.73}Многоугольник}{27}{section.0.73}%
-\contentsline {section}{\numberline {0.74}Измеримое по Жордану (квадрируемое) множество. Площадь.}{27}{section.0.74}%
-\contentsline {section}{\numberline {0.75}Критерий квадрируемости множества}{28}{section.0.75}%
-\contentsline {section}{\numberline {0.76}Криволинейная трапеция}{28}{section.0.76}%
-\contentsline {section}{\numberline {0.77}Квадрируемость криволинейной трапеции}{28}{section.0.77}%
+\contentsline {section}{\numberline {0.73}Многоугольник}{28}{section.0.73}%
+\contentsline {section}{\numberline {0.74}Измеримое по Жордану (квадрируемое) множество. Площадь.}{28}{section.0.74}%
+\contentsline {section}{\numberline {0.75}Критерий квадрируемости множества}{29}{section.0.75}%
+\contentsline {section}{\numberline {0.76}Криволинейная трапеция}{29}{section.0.76}%
+\contentsline {section}{\numberline {0.77}Квадрируемость криволинейной трапеции}{29}{section.0.77}%
 \contentsline {section}{\numberline {0.78}Квадрируемость криволинейного сектора}{29}{section.0.78}%
-\contentsline {section}{\numberline {0.79}Несобственный интеграл, заданный на луче, на прямой, на отрезке. Сходящийся и расходящийся несобственный интеграл}{29}{section.0.79}%
+\contentsline {section}{\numberline {0.79}Несобственный интеграл, заданный на луче, на прямой, на отрезке. Сходящийся и расходящийся несобственный интеграл}{30}{section.0.79}%
 \contentsline {section}{\numberline {0.80}Критерий Коши сходимости несобственного интеграла}{31}{section.0.80}%
-\contentsline {section}{\numberline {0.81}Свойства несобственного интеграла}{31}{section.0.81}%
-\contentsline {section}{\numberline {0.82}Сходимость несобственного интеграла от неотрицательных функций}{31}{section.0.82}%
-\contentsline {section}{\numberline {0.83}Первый признак сравнения}{31}{section.0.83}%
-\contentsline {section}{\numberline {0.84}Второй признак сравнения}{31}{section.0.84}%
-\contentsline {section}{\numberline {0.85}Абсолютно сходящийся несобственный интеграл}{32}{section.0.85}%
-\contentsline {section}{\numberline {0.86}Связь сходимости и абсолютной сходимости несобственного интеграла}{32}{section.0.86}%
-\contentsline {section}{\numberline {0.87}Признак Вейерштрасса}{32}{section.0.87}%
-\contentsline {section}{\numberline {0.88}Условно сходящийся несобственный интеграл}{32}{section.0.88}%
-\contentsline {section}{\numberline {0.89}Признак Абеля}{32}{section.0.89}%
-\contentsline {section}{\numberline {0.90}Признак Дирихле}{33}{section.0.90}%
-\contentsline {section}{\numberline {0.91}Теорема о замене переменной в несобственном интеграле}{33}{section.0.91}%
-\contentsline {section}{\numberline {0.92}Линейное пространство}{33}{section.0.92}%
-\contentsline {section}{\numberline {0.93}Линейное нормированное пространство. Норма}{34}{section.0.93}%
-\contentsline {section}{\numberline {0.94}Примеры линейных нормированных пространств (ЛНП)}{34}{section.0.94}%
-\contentsline {section}{\numberline {0.95}Метрика ЛНП}{35}{section.0.95}%
-\contentsline {section}{\numberline {0.96}Банахово ЛНП. Примеры}{35}{section.0.96}%
-\contentsline {section}{\numberline {0.97}Теорема о вложенных шарах}{36}{section.0.97}%
-\contentsline {section}{\numberline {0.98}Сжимающее отображение}{36}{section.0.98}%
-\contentsline {section}{\numberline {0.99}Принцип сжимающих отображений}{36}{section.0.99}%
-\contentsline {section}{\numberline {0.100}Предкомпактное множество в МП}{36}{section.0.100}%
-\contentsline {section}{\numberline {0.101}Вполне ограниченное множество}{36}{section.0.101}%
-\contentsline {section}{\numberline {0.102}Теорема Хаусдорфа}{36}{section.0.102}%
-\contentsline {section}{\numberline {0.103}Теорема о полноте $\mathbb {R}^n$}{36}{section.0.103}%
-\contentsline {section}{\numberline {0.104}Критерий компактности $\mathbb {R}^n$}{37}{section.0.104}%
-\contentsline {section}{\numberline {0.105}Эквивалентность норм в $\mathbb {R}^n$}{37}{section.0.105}%
-\contentsline {section}{\numberline {0.106}Линейные отображения в конечномерных пространствах}{37}{section.0.106}%
-\contentsline {section}{\numberline {0.107}Теорема о матрице линейного отображения}{37}{section.0.107}%
-\contentsline {section}{\numberline {0.108}Теорема о непрерывности линейного отображения}{37}{section.0.108}%
-\contentsline {section}{\numberline {0.109}Дифференциал в точке в $\mathbb {R}^n$}{37}{section.0.109}%
-\contentsline {section}{\numberline {0.110}Критерий дифференцируемости отображения в $\mathbb {R}^n$}{38}{section.0.110}%
-\contentsline {section}{\numberline {0.111}Область}{38}{section.0.111}%
-\contentsline {section}{\numberline {0.112}Частная производная функции многих переменных}{38}{section.0.112}%
-\contentsline {section}{\numberline {0.113}Связь дифференциала и частных производных}{38}{section.0.113}%
-\contentsline {section}{\numberline {0.114}Матрица Якоби}{38}{section.0.114}%
-\contentsline {section}{\numberline {0.115}Дифференцируемость и арифметические операции}{38}{section.0.115}%
-\contentsline {section}{\numberline {0.116}Дифференцирование композиции}{38}{section.0.116}%
-\contentsline {section}{\numberline {0.117}Дифференцирование обратного отображения}{38}{section.0.117}%
-\contentsline {section}{\numberline {0.118}Производная функции по вектору}{39}{section.0.118}%
-\contentsline {section}{\numberline {0.119}Теорема о существовании производной функции по вектору}{39}{section.0.119}%
-\contentsline {section}{\numberline {0.120}Градиент функции}{39}{section.0.120}%
-\contentsline {section}{\numberline {0.121}Производная по направлению вектора}{39}{section.0.121}%
-\contentsline {section}{\numberline {0.122}Теорема о среднем (аналог теоремы Лагранжа).}{39}{section.0.122}%
-\contentsline {section}{\numberline {0.123}Следствие теоремы о среднем}{39}{section.0.123}%
-\contentsline {section}{\numberline {0.124}Достаточное условие дифференцируемости функции}{39}{section.0.124}%
-\contentsline {section}{\numberline {0.125}Производные высших порядков}{39}{section.0.125}%
-\contentsline {section}{\numberline {0.126}Теорема о смешанных производных}{39}{section.0.126}%
-\contentsline {section}{\numberline {0.127}Формула Тейлора}{40}{section.0.127}%
-\contentsline {section}{\numberline {0.128}Локальный экстремум}{40}{section.0.128}%
-\contentsline {section}{\numberline {0.129}Необходимое условие локального экстремума}{40}{section.0.129}%
-\contentsline {section}{\numberline {0.130}Критическая точка функции}{40}{section.0.130}%
-\contentsline {section}{\numberline {0.131}Достаточное условие локального экстремума}{40}{section.0.131}%
-\contentsline {section}{\numberline {0.132}Критерий Сильвестра}{40}{section.0.132}%
-\contentsline {section}{\numberline {0.133}Неявная функция}{40}{section.0.133}%
-\contentsline {section}{\numberline {0.134}Теорема о неявной функции}{40}{section.0.134}%
-\contentsline {section}{\numberline {0.135}Диффиоморфизм}{40}{section.0.135}%
-\contentsline {section}{\numberline {0.136}Теорема о неявной функции (через понятие диффиоморфизма)}{41}{section.0.136}%
+\contentsline {section}{\numberline {0.81}Свойства несобственного интеграла}{32}{section.0.81}%
+\contentsline {section}{\numberline {0.82}Сходимость несобственного интеграла от неотрицательных функций}{32}{section.0.82}%
+\contentsline {section}{\numberline {0.83}Первый признак сравнения}{32}{section.0.83}%
+\contentsline {section}{\numberline {0.84}Второй признак сравнения}{33}{section.0.84}%
+\contentsline {section}{\numberline {0.85}Абсолютно сходящийся несобственный интеграл}{33}{section.0.85}%
+\contentsline {section}{\numberline {0.86}Связь сходимости и абсолютной сходимости несобственного интеграла}{33}{section.0.86}%
+\contentsline {section}{\numberline {0.87}Признак Вейерштрасса}{33}{section.0.87}%
+\contentsline {section}{\numberline {0.88}Условно сходящийся несобственный интеграл}{33}{section.0.88}%
+\contentsline {section}{\numberline {0.89}Признак Абеля}{34}{section.0.89}%
+\contentsline {section}{\numberline {0.90}Признак Дирихле}{34}{section.0.90}%
+\contentsline {section}{\numberline {0.91}Теорема о замене переменной в несобственном интеграле}{34}{section.0.91}%
+\contentsline {section}{\numberline {0.92}Линейное пространство}{34}{section.0.92}%
+\contentsline {section}{\numberline {0.93}Линейное нормированное пространство. Норма}{35}{section.0.93}%
+\contentsline {section}{\numberline {0.94}Примеры линейных нормированных пространств (ЛНП)}{35}{section.0.94}%
+\contentsline {section}{\numberline {0.95}Метрика ЛНП}{36}{section.0.95}%
+\contentsline {section}{\numberline {0.96}Банахово ЛНП. Примеры}{36}{section.0.96}%
+\contentsline {section}{\numberline {0.97}Теорема о вложенных шарах}{37}{section.0.97}%
+\contentsline {section}{\numberline {0.98}Сжимающее отображение}{37}{section.0.98}%
+\contentsline {section}{\numberline {0.99}Принцип сжимающих отображений}{37}{section.0.99}%
+\contentsline {section}{\numberline {0.100}Предкомпактное множество в МП}{37}{section.0.100}%
+\contentsline {section}{\numberline {0.101}Вполне ограниченное множество}{37}{section.0.101}%
+\contentsline {section}{\numberline {0.102}Теорема Хаусдорфа}{38}{section.0.102}%
+\contentsline {section}{\numberline {0.103}Теорема о полноте $\mathbb {R}^n$}{38}{section.0.103}%
+\contentsline {section}{\numberline {0.104}Критерий компактности $\mathbb {R}^n$}{38}{section.0.104}%
+\contentsline {section}{\numberline {0.105}Эквивалентность норм в $\mathbb {R}^n$}{38}{section.0.105}%
+\contentsline {section}{\numberline {0.106}Линейные отображения в конечномерных пространствах}{38}{section.0.106}%
+\contentsline {section}{\numberline {0.107}Теорема о матрице линейного отображения}{38}{section.0.107}%
+\contentsline {section}{\numberline {0.108}Теорема о непрерывности линейного отображения}{39}{section.0.108}%
+\contentsline {section}{\numberline {0.109}Дифференциал в точке в $\mathbb {R}^n$}{39}{section.0.109}%
+\contentsline {section}{\numberline {0.110}Критерий дифференцируемости отображения в $\mathbb {R}^n$}{39}{section.0.110}%
+\contentsline {section}{\numberline {0.111}Область}{39}{section.0.111}%
+\contentsline {section}{\numberline {0.112}Частная производная функции многих переменных}{40}{section.0.112}%
+\contentsline {section}{\numberline {0.113}Связь дифференциала и частных производных}{40}{section.0.113}%
+\contentsline {section}{\numberline {0.114}Матрица Якоби}{40}{section.0.114}%
+\contentsline {section}{\numberline {0.115}Дифференцируемость и арифметические операции}{41}{section.0.115}%
+\contentsline {section}{\numberline {0.116}Дифференцирование композиции}{41}{section.0.116}%
+\contentsline {section}{\numberline {0.117}Дифференцирование обратного отображения}{41}{section.0.117}%

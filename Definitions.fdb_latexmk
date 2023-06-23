@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1685733390 "d:/latex/GitHub/Semester-2-MatAn-Definitions/Definitions.tex" "Definitions.pdf" "Definitions" 1685733395 0
+["pdflatex"] 1687508037 "d:/latex/GitHub/Semester-2-MatAn-Definitions/Definitions.tex" "Definitions.pdf" "Definitions" 1687508043 0
   "C:/Users/zibli/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1679902590 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/zibli/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1679133366 11548 e562e517996df7262f62c201469d09ff ""
   "C:/Users/zibli/AppData/Local/MiKTeX/fonts/pk/ljfour/lh/lh-t2a/dpi600/labx1000.pk" 1679133372 23468 1465e9a6a7b340a5e699052adc72f9a7 ""
@@ -132,11 +132,11 @@
   "C:/Users/zibli/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty" 1667242266 10214 de3e21cfc0eccc98ca7f8dac0ef263d2 ""
   "C:/Users/zibli/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/zibli/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
-  "Definitions.aux" 1685733394 24401 4543e92990f4fbaae14d030d26a2b5f5 "pdflatex"
-  "Definitions.out" 1685733394 44560 601789a5b028b6e3b4a24fce9b3bd752 "pdflatex"
-  "Definitions.tex" 1685733383 91227 e46c603b311462225def73ff0aa1e1ab ""
-  "Definitions.toc" 1685733394 17762 5851c294d30c2e1af5b1fb6a2d627441 "pdflatex"
-  "d:/latex/GitHub/Semester-2-MatAn-Definitions/Definitions.tex" 1685733383 91227 e46c603b311462225def73ff0aa1e1ab ""
+  "Definitions.aux" 1687508042 21286 64c2ac8d76813c995279200fe64cb1e1 "pdflatex"
+  "Definitions.out" 1687508042 39008 d5577dc9a508bd774355e37318180c2b "pdflatex"
+  "Definitions.tex" 1687508035 99765 01f7f698468249e77da3b40a1f26b880 ""
+  "Definitions.toc" 1687508042 15426 80ffb1705a0c95648c20f79d4fefc987 "pdflatex"
+  "d:/latex/GitHub/Semester-2-MatAn-Definitions/Definitions.tex" 1687508035 99765 01f7f698468249e77da3b40a1f26b880 ""
   "graph1.png" 1679992403 15614 ecb8ed2af3b25bb5508758b001f1b15b ""
   "graph10.png" 1682400142 10774 61286f6aa88d6c3a2500e899e72adaf4 ""
   "graph12.png" 1682400700 12346 e9518f12e62ced96501e62ddecba4c1d ""
