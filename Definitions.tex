@@ -205,9 +205,13 @@ $f'(x_0) = 0$, либо $f'(x_0) \ \nexists$.
 \section{Критерий выпуклости в терминах первой производной}
 
 \begin{statement}[критерий выпуклости в терминах первой производной]
-    Пусть $f:(a;b)\rightarrow\mathbb{R}$ дифференцируема на $(a;b)$. $f$ - выпукла вниз на $(a;b)
-        \iff f'(x)$ - не убывает на $(a;b), \ f$ - выпукла вверх на $(a;b) \iff f'(x)$ - не возрастает
-    на $(a;b)$. Строгая выпуклость функции соответствует строгой монотонности производной.
+    Пусть функция $f:(a;b)\rightarrow\mathbb{R}$ дифференцируема на $(a;b)$.
+    \begin{itemize}
+        \item $f(x)$ выпукла вниз на $(a;b) \iff f'(x)$ не убывает на $(a;b)$;
+        \item $f(x)$ выпукла вверх на $(a;b) \iff f'(x)$ не возрастает на $(a;b)$.
+    \end{itemize}
+    
+    Строгая выпуклость функции соответствует строгой монотонности производной.
 \end{statement}
 
 \section{Критерий выпуклости в терминах касательной}
@@ -279,7 +283,7 @@ $f'(x_0) = 0$, либо $f'(x_0) \ \nexists$.
         \item Пусть \(\alpha, \beta \in \mathbb{R} = const\), тогда:\\
               \(\int (\alpha f(x) + \beta g(x)) dx = \alpha \int f(x) dx + \beta \int g(x) dx\).
         \item Формула интегрирования по частям: \\
-              \(udv = uv - \int udv, \ u = u(x), v = v(x)\).
+              \(\int udv = uv - \int udv, \ u = u(x), v = v(x)\).
         \item Интегрирование подстановкой: \\
               Пусть \(T\) - промежуток, \(X = X(t)\) - дифференцируема на \(T\). \\
               Тогда \(\int f(X(t)) * X'(t) dt = F(X(t)) + C = \int f(x) dx + C\).
@@ -549,7 +553,7 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
     Пусть $f:X\rightarrow\mathbb{R}, \ \beta$ - база на $X$\\
 
     Число $A\in\mathbb{R}$ называется \textbf{пределом} функции $f$ \textbf{по базе $\beta$}, если
-    $\forall \epsilon > 0 \ \exists$ элемент базы $\beta \in \beta: \quad |f(x) - A| < \epsilon$.
+    $\forall \epsilon > 0 \ \exists$ элемент базы $\beta \in \beta: \ \forall x \in \beta: \quad |f(x) - A| < \epsilon$.
     \begin{equation*}
         \underset{\beta}{\lim} f(x)
     \end{equation*}
@@ -604,7 +608,7 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
 
         \item Пусть $(Y,d)$ - МП (\textbf{полное}), $f:X\rightarrow Y, \ \beta$ - база на $Y$.
 
-              Функция $f(x)$ имеет предел по базе $\beta \iff \forall \epsilon>0\exists\beta\in\beta: \quad \forall
+              Функция $f(x)$ имеет предел по базе $\beta \iff \forall \epsilon>0 \ \exists\beta\in\beta: \quad \forall
                   x_{1},x_{2} \in \beta \ d(f(x_{1}), f(x_{2})) < \epsilon$
     \end{enumerate}
 \end{theorem}
