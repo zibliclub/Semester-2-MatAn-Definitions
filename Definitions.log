@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.18)  23 JUN 2023 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.18)  28 JUN 2023 18:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -583,7 +583,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 ...РµРґРµР» РїРѕ Р±Р°Р·Рµ)}{16}{section.0.33}
+l.34 ...РµРґРµР» РїРѕ Р±Р°Р·Рµ)}{17}{section.0.33}
                                                   % [1
 
 ] [2]
@@ -603,426 +603,434 @@ Overfull \hbox (2.16568pt too wide) in paragraph at lines 152--152
  []
 
 [7]
-Overfull \hbox (1.85577pt too wide) in paragraph at lines 225--225
+Overfull \hbox (1.85577pt too wide) in paragraph at lines 221--221
 []\T2A/cmr/bx/n/14.4 Критерий вы-пук-ло-сти в тер-ми-нах выс-ших
  []
 
 [8]
-Overfull \hbox (7.49055pt too wide) in paragraph at lines 232--235
+Overfull \hbox (7.49055pt too wide) in paragraph at lines 236--239
 \U/msb/m/n/10 R$\T2A/cmr/m/n/10 . Функ-ция $\OML/cmm/m/it/10 F\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ \T2A/cmr/m/n/10 на-зы-ва-ет-ся \T2A/cmr/bx/n/10 пер-во-об-раз-ной $\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$\T2A/cmr/m/n/10 , ес-ли про-из-вод-ная $\OML/cmm/m/it/10 F[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) =
  []
 
 
-Overfull \hbox (13.5523pt too wide) in paragraph at lines 266--267
+Overfull \hbox (13.5523pt too wide) in paragraph at lines 270--271
 \T2A/cmr/bx/n/10 Определение \T2A/cmr/m/n/10 (ин-те-гри-ро-ва-ние)\T2A/cmr/bx/n/10 . \T2A/cmr/m/n/10 Опе-ра-ция на-хож-де-ния пер-во-об-раз-ной функ-
  []
 
 [9]
-Overfull \hbox (0.26514pt too wide) in paragraph at lines 288--294
+Overfull \hbox (0.26514pt too wide) in paragraph at lines 292--298
 \T2A/cmr/m/n/10 мно-го-чле-ны, на-зы-ва-ет-ся \T2A/cmr/bx/n/10 ра-ци-о-наль-ной дро-бью\T2A/cmr/m/n/10 , или ра-ци-о-наль-ной функ-
  []
 
 
-Overfull \hbox (1.85526pt too wide) in paragraph at lines 288--294
+Overfull \hbox (1.85526pt too wide) in paragraph at lines 292--298
 \T2A/cmr/m/n/10 Если $[] \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 ) \OML/cmm/m/it/10 < [] Q\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$\T2A/cmr/m/n/10 , то дробь на-зы-ва-ет-ся \T2A/cmr/bx/n/10 пра-виль-ной\T2A/cmr/m/n/10 , ина-че - \T2A/cmr/bx/n/10 непра-
  []
 
 [10]
-Overfull \hbox (33.65671pt too wide) in paragraph at lines 328--342
+Overfull \hbox (33.65671pt too wide) in paragraph at lines 332--346
 []$[] []\OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = [] = [] []\OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--342
+Underfull \hbox (badness 10000) in paragraph at lines 332--346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--355
+Underfull \hbox (badness 10000) in paragraph at lines 350--359
 [] [] [] \OT1/cmr/m/n/10 = [] =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--355
+Underfull \hbox (badness 10000) in paragraph at lines 350--359
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--363
+Underfull \hbox (badness 10000) in paragraph at lines 360--367
 []$\OML/cmm/m/it/10 I \OT1/cmr/m/n/10 = [] = [] [] [] =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--363
+Underfull \hbox (badness 10000) in paragraph at lines 360--367
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--366
+Underfull \hbox (badness 10000) in paragraph at lines 368--370
 
  []
 
 
-Overfull \hbox (32.8028pt too wide) in paragraph at lines 372--387
+Overfull \hbox (32.8028pt too wide) in paragraph at lines 376--391
 []$[] []\OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = [] = [] []\OML/cmm/m/it/10 dx \OT1/cmr/m/n/10 = [] [] [] +
  []
 
 
-Overfull \hbox (43.38599pt too wide) in paragraph at lines 372--387
+Overfull \hbox (43.38599pt too wide) in paragraph at lines 376--391
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 B \OMS/cmsy/m/n/10 ^^@ []\OT1/cmr/m/n/10 ) [] [] = [][] + [][][] =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--387
+Underfull \hbox (badness 10000) in paragraph at lines 376--391
 
  []
 
 
-Overfull \hbox (12.46149pt too wide) in paragraph at lines 388--406
+Overfull \hbox (12.46149pt too wide) in paragraph at lines 392--410
 \T2A/cmr/m/n/10 грал $[] [] \OT1/cmr/m/n/10 = [] =
  []
 
 [11
 
 ]
-Overfull \hbox (0.62328pt too wide) in paragraph at lines 409--409
+Overfull \hbox (0.62328pt too wide) in paragraph at lines 413--413
 []\T2A/cmr/bx/n/14.4 Разложение ра-ци-о-наль-ных дро-бей на про-
  []
 
 
-Overfull \hbox (1.95184pt too wide) in paragraph at lines 412--417
+Overfull \hbox (1.95184pt too wide) in paragraph at lines 416--421
 \T2A/cmr/bx/n/10 Лемма. \T2A/cmr/m/n/10 Пусть $[]$ - пра-виль-ная ра-ци-о-наль-ная дробь (несо-кра-ти-мая). При-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--452
+Underfull \hbox (badness 10000) in paragraph at lines 453--456
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--454
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 483--485
+Overfull \hbox (12.59819pt too wide) in paragraph at lines 492--493
+\T2A/cmr/m/n/10 ные мно-жи-те-ли $\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )(\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )$\T2A/cmr/m/n/10 , то ин-те-грал ви-да $[] \OML/cmm/m/it/10 R\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; []dx\OT1/cmr/m/n/10 )$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--502
 
  []
 
 <graph1.png, id=714, 237.0456pt x 173.9298pt>
 File: graph1.png Graphic file (type png)
 <use graph1.png>
-Package pdftex.def Info: graph1.png  used on input line 488.
+Package pdftex.def Info: graph1.png  used on input line 505.
 (pdftex.def)             Requested size: 165.93077pt x 121.75002pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 494--496
-
- []
-
-[13 <./graph1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 497--498
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--502
+Underfull \hbox (badness 10000) in paragraph at lines 511--513
 
  []
 
 
-Overfull \hbox (1.52338pt too wide) in paragraph at lines 503--505
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--519
+
+ []
+
+
+Overfull \hbox (1.52338pt too wide) in paragraph at lines 520--522
 []\T2A/cmr/m/n/10 Этот пре-дел на-зы-ва-ет-ся \T2A/cmr/bx/n/10 ин-те-гра-лом Ри-ма-на \T2A/cmr/m/n/10 функ-ции $\OML/cmm/m/it/10 f$ \T2A/cmr/m/n/10 на $\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 b\OT1/cmr/m/n/10 ]$\T2A/cmr/m/n/10 . Класс
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--511
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
 
  []
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 514.
+LaTeX Warning: Command \o invalid in math mode on input line 531.
 
 
-LaTeX Warning: Command \o invalid in math mode on input line 514.
+LaTeX Warning: Command \o invalid in math mode on input line 531.
+
+[14 <./graph1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 549--550
+
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 532--533
+Underfull \hbox (badness 10000) in paragraph at lines 559--560
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
-
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 567--569
+Underfull \hbox (badness 10000) in paragraph at lines 584--586
 
  []
 
 [15]
-<graph2.png, id=741, 237.2865pt x 49.6254pt>
+<graph2.png, id=742, 237.2865pt x 49.6254pt>
 File: graph2.png Graphic file (type png)
 <use graph2.png>
-Package pdftex.def Info: graph2.png  used on input line 612.
+Package pdftex.def Info: graph2.png  used on input line 629.
 (pdftex.def)             Requested size: 142.37299pt x 29.77545pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 633--637
+ [16 <./graph2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 650--654
 
  []
 
 
-Overfull \hbox (24.777pt too wide) in paragraph at lines 651--651
+Overfull \hbox (24.777pt too wide) in paragraph at lines 668--668
 []\T2A/cmr/bx/n/14.4 Необходимое усло-вие ин-те-гри-ру-е-мо-сти функ-
  []
 
-[16 <./graph2.png>]
-<graph4.png, id=747, 256.3176pt x 162.8484pt>
+<graph4.png, id=750, 256.3176pt x 162.8484pt>
 File: graph4.png Graphic file (type png)
 <use graph4.png>
-Package pdftex.def Info: graph4.png  used on input line 670.
+Package pdftex.def Info: graph4.png  used on input line 687.
 (pdftex.def)             Requested size: 153.79173pt x 97.7098pt.
-<graph3.png, id=748, 256.3176pt x 162.6075pt>
+<graph3.png, id=751, 256.3176pt x 162.6075pt>
 File: graph3.png Graphic file (type png)
 <use graph3.png>
-Package pdftex.def Info: graph3.png  used on input line 674.
+Package pdftex.def Info: graph3.png  used on input line 691.
 (pdftex.def)             Requested size: 153.79173pt x 97.56525pt.
-LaTeX Font Info:    Trying to load font information for U+euf on input line 694.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 711.
  (C:\Users\zibli\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-) [17 <./graph4.png> <./graph3.png>]
-Overfull \hbox (11.69572pt too wide) in paragraph at lines 734--734
+)
+Overfull \hbox (11.69572pt too wide) in paragraph at lines 751--751
 []\T2A/cmr/bx/n/14.4 Интегрируемость функ-ции с ко-неч-ным чис-
  []
 
-[18]
-Overfull \hbox (7.2778pt too wide) in paragraph at lines 780--780
+[18 <./graph4.png> <./graph3.png>]
+Overfull \hbox (7.2778pt too wide) in paragraph at lines 797--797
 []\T2A/cmr/bx/n/14.4 Монотонность ин-те-гра-ла Ри-ма-на и ее след-
  []
 
-[19]
-Overfull \hbox (14.77423pt too wide) in paragraph at lines 864--865
+[19] [20]
+Overfull \hbox (14.77423pt too wide) in paragraph at lines 881--882
 \T2A/cmr/bx/n/10 Замечание. \T2A/cmr/m/n/10 Рас-смот-рим сле-ду-ю-щие клас-сы (мно-же-ства/пространства) функ-
  []
 
-[20]
-Overfull \hbox (9.45508pt too wide) in paragraph at lines 894--894
+[21]
+Overfull \hbox (9.45508pt too wide) in paragraph at lines 911--911
 []\T2A/cmr/bx/n/14.4 Формула Ньютона-Лейбница для функ-ции,
  []
 
 
-Overfull \hbox (6.86185pt too wide) in paragraph at lines 894--894
+Overfull \hbox (6.86185pt too wide) in paragraph at lines 911--911
 \T2A/cmr/bx/n/14.4 недиф-фи-рен-ци-ру-е-мой в неко-то-рых (ко-неч-
  []
 
-[21] [22]
-<graph6.png, id=798, 1007.765pt x 241.90375pt>
+[22]
+<graph6.png, id=797, 1007.765pt x 241.90375pt>
 File: graph6.png Graphic file (type png)
 <use graph6.png>
-Package pdftex.def Info: graph6.png  used on input line 984.
+Package pdftex.def Info: graph6.png  used on input line 1001.
 (pdftex.def)             Requested size: 201.54942pt x 48.37988pt.
-<graph7.png, id=799, 1007.765pt x 692.5875pt>
+ [23 <./graph6.png>]
+<graph7.png, id=807, 1007.765pt x 692.5875pt>
 File: graph7.png Graphic file (type png)
 <use graph7.png>
-Package pdftex.def Info: graph7.png  used on input line 1008.
+Package pdftex.def Info: graph7.png  used on input line 1025.
 (pdftex.def)             Requested size: 201.54942pt x 138.51505pt.
- [23 <./graph6.png>]
-<graph8.png, id=805, 969.6225pt x 542.025pt>
+<graph8.png, id=808, 969.6225pt x 542.025pt>
 File: graph8.png Graphic file (type png)
 <use graph8.png>
-Package pdftex.def Info: graph8.png  used on input line 1027.
+Package pdftex.def Info: graph8.png  used on input line 1044.
 (pdftex.def)             Requested size: 193.92107pt x 108.40308pt.
  [24 <./graph7.png> <./graph8.png>]
-<graph9.png, id=813, 648.4225pt x 515.9275pt>
+<graph9.png, id=816, 648.4225pt x 515.9275pt>
 File: graph9.png Graphic file (type png)
 <use graph9.png>
-Package pdftex.def Info: graph9.png  used on input line 1093.
+Package pdftex.def Info: graph9.png  used on input line 1110.
 (pdftex.def)             Requested size: 129.68219pt x 103.18367pt.
-<graph10.png, id=814, 663.47874pt x 245.91875pt>
+<graph10.png, id=817, 663.47874pt x 245.91875pt>
 File: graph10.png Graphic file (type png)
 <use graph10.png>
-Package pdftex.def Info: graph10.png  used on input line 1097.
+Package pdftex.def Info: graph10.png  used on input line 1114.
 (pdftex.def)             Requested size: 132.69339pt x 49.18288pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [25] [26 <./graph9.png> <./graph10.png>]
-<graph12.png, id=825, 599.23875pt x 423.5825pt>
+<graph12.png, id=828, 599.23875pt x 423.5825pt>
 File: graph12.png Graphic file (type png)
 <use graph12.png>
-Package pdftex.def Info: graph12.png  used on input line 1126.
+Package pdftex.def Info: graph12.png  used on input line 1143.
 (pdftex.def)             Requested size: 119.84563pt x 84.715pt.
-<graph17.png, id=826, 392.46625pt x 297.11pt>
+<graph17.png, id=829, 392.46625pt x 297.11pt>
 File: graph17.png Graphic file (type png)
 <use graph17.png>
-Package pdftex.def Info: graph17.png  used on input line 1164.
+Package pdftex.def Info: graph17.png  used on input line 1181.
 (pdftex.def)             Requested size: 117.74077pt x 89.13368pt.
  [27
 
  <./graph12.png>]
-<graph18.png, id=832, 407.5225pt x 289.08pt>
+<graph18.png, id=835, 407.5225pt x 289.08pt>
 File: graph18.png Graphic file (type png)
 <use graph18.png>
-Package pdftex.def Info: graph18.png  used on input line 1190.
+Package pdftex.def Info: graph18.png  used on input line 1207.
 (pdftex.def)             Requested size: 81.50305pt x 57.81497pt.
  [28 <./graph17.png> <./graph18.png>]
-Overfull \hbox (2.23071pt too wide) in paragraph at lines 1241--1241
+Overfull \hbox (2.23071pt too wide) in paragraph at lines 1258--1258
 []\T2A/cmr/bx/n/14.4 Квадрируемость кри-во-ли-ней-ной тра-пе-ции 
  []
 
 [29]
-Overfull \hbox (0.70003pt too wide) in paragraph at lines 1268--1268
+Overfull \hbox (0.70003pt too wide) in paragraph at lines 1285--1285
 []\T2A/cmr/bx/n/14.4 Несобственный ин-те-грал, за-дан-ный на лу-
  []
 
 [30] [31] [32]
-Overfull \hbox (17.97906pt too wide) in paragraph at lines 1424--1426
+Overfull \hbox (17.97906pt too wide) in paragraph at lines 1438--1440
 []\T2A/cmr/m/n/10 Если $\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 = 0$\T2A/cmr/m/n/10 , то из рас-хо-ди-мо-сти $[][] \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dx$ \T2A/cmr/m/n/10 сле-ду-ет рас-хо-ди-мость $[][] \OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dx$\T2A/cmr/m/n/10 ,
  []
 
 
-Overfull \hbox (3.17545pt too wide) in paragraph at lines 1431--1431
+Overfull \hbox (3.17545pt too wide) in paragraph at lines 1445--1445
 []\T2A/cmr/bx/n/14.4 Абсолютно схо-дя-щий-ся несоб-ствен-ный ин-
  []
 
 
-Overfull \hbox (12.15744pt too wide) in paragraph at lines 1436--1437
+Overfull \hbox (12.15744pt too wide) in paragraph at lines 1450--1451
 []$[][] \OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 dx$ \T2A/cmr/m/n/10 на-зы-ва-ет-ся \T2A/cmr/bx/n/10 аб-со-лют-но схо-дя-щим-ся\T2A/cmr/m/n/10 , ес-ли схо-дит-ся $[][] \OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 dx$\T2A/cmr/m/n/10 . 
  []
 
 [33]
-Overfull \hbox (7.0851pt too wide) in paragraph at lines 1491--1491
+Overfull \hbox (7.0851pt too wide) in paragraph at lines 1505--1505
 []\T2A/cmr/bx/n/14.4 Теорема о за-мене пе-ре-мен-ной в несоб-ствен-
  []
 
 
-Overfull \hbox (17.74425pt too wide) in paragraph at lines 1508--1511
+Overfull \hbox (17.74425pt too wide) in paragraph at lines 1522--1525
 \T2A/cmr/bx/n/10 Определение. Ли-ней-ным про-стран-ством \T2A/cmr/m/n/10 на-зы-ва-ет-ся чет-вер-ка $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X; K; \OT1/cmr/m/n/10 +\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^C\OT1/cmr/m/n/10 )$\T2A/cmr/m/n/10 ,
  []
 
 [34]
-Overfull \hbox (24.31372pt too wide) in paragraph at lines 1525--1525
+Overfull \hbox (24.31372pt too wide) in paragraph at lines 1539--1539
 []\T2A/cmr/bx/n/14.4 Линейное нор-ми-ро-ван-ное про-стран-ство. Нор-
  []
 
 
-Overfull \hbox (24.72723pt too wide) in paragraph at lines 1555--1560
+Overfull \hbox (24.72723pt too wide) in paragraph at lines 1569--1574
 [][] \OML/cmm/m/it/10 x[]y[] \U/msa/m/n/10 6 \OT1/cmr/m/n/10 ([][] \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )[]([][] \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 )[]\OMS/cmsy/m/n/10 j \U/msa/m/n/10 6 [][] \OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 + 2([][] \OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )[]([][] \OML/cmm/m/it/10 y[]\OT1/cmr/m/n/10 )[] +
  []
 
 [35]
-Overfull \hbox (14.70511pt too wide) in paragraph at lines 1584--1586
+Overfull \hbox (14.70511pt too wide) in paragraph at lines 1598--1600
 []$\OML/cmm/m/it/10 X$ \T2A/cmr/m/n/10 - про-стран-ство непре-рыв-ных на $\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 b\OT1/cmr/m/n/10 ]$ \T2A/cmr/m/n/10 функ-ций, то есть $\OML/cmm/m/it/10 X \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 C\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 a\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 b\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 ;  \OMS/cmsy/m/n/10 8\OML/cmm/m/it/10 x \OMS/cmsy/m/n/10 2
  []
 
 [36]
-Overfull \hbox (6.549pt too wide) in paragraph at lines 1669--1671
+Overfull \hbox (6.549pt too wide) in paragraph at lines 1683--1685
 \T2A/cmr/bx/n/10 Определение. \T2A/cmr/m/n/10 Мно-же-ство $\OML/cmm/m/it/10 E$ \T2A/cmr/m/n/10 в мет-ри-че-ском про-стран-стве на-зы-ва-ет-ся \T2A/cmr/bx/n/10 пред-
  []
 
 [37]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1689.
+(hyperref)                removing `math shift' on input line 1703.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1689.
+(hyperref)                removing `superscript' on input line 1703.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1689.
+(hyperref)                removing `math shift' on input line 1703.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1698.
+(hyperref)                removing `math shift' on input line 1712.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1698.
+(hyperref)                removing `superscript' on input line 1712.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1698.
+(hyperref)                removing `math shift' on input line 1712.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1704.
+(hyperref)                removing `math shift' on input line 1718.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1704.
+(hyperref)                removing `superscript' on input line 1718.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1704.
+(hyperref)                removing `math shift' on input line 1718.
 
 
-Overfull \hbox (5.62709pt too wide) in paragraph at lines 1721--1721
+Overfull \hbox (5.62709pt too wide) in paragraph at lines 1735--1735
 []\T2A/cmr/bx/n/14.4 Линейные отоб-ра-же-ния в ко-неч-но-мер-ных
  []
 
 [38]
-Overfull \hbox (7.55768pt too wide) in paragraph at lines 1743--1743
+Overfull \hbox (7.55768pt too wide) in paragraph at lines 1757--1757
 []\T2A/cmr/bx/n/14.4 Теорема о непре-рыв-но-сти ли-ней-но-го отоб-
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1749.
+(hyperref)                removing `math shift' on input line 1763.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1749.
+(hyperref)                removing `superscript' on input line 1763.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1749.
+(hyperref)                removing `math shift' on input line 1763.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1767.
+(hyperref)                removing `math shift' on input line 1781.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 1767.
+(hyperref)                removing `superscript' on input line 1781.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 1767.
+(hyperref)                removing `math shift' on input line 1781.
 
 
-Overfull \hbox (8.7319pt too wide) in paragraph at lines 1796--1796
+Overfull \hbox (8.7319pt too wide) in paragraph at lines 1810--1810
 []\T2A/cmr/bx/n/14.4 Частная про-из-вод-ная функ-ции мно-гих пе-
  []
 
 [39] [40]
-Overfull \hbox (2.71733pt too wide) in paragraph at lines 1887--1887
+Overfull \hbox (2.71733pt too wide) in paragraph at lines 1901--1901
 []\T2A/cmr/bx/n/14.4 Дифференцируемость и ариф-ме-ти-че-ские
  []
 
-[41] (Definitions.aux)
+[41] [42] (Definitions.aux)
 Package rerunfilecheck Info: File `Definitions.out' has not changed.
-(rerunfilecheck)             Checksum: D5577DC9A508BD774355E37318180C2B;39008.
+(rerunfilecheck)             Checksum: 39429B674B52E32DEAFFD49662179B48;38840.
  ) 
 Here is how much of TeX's memory you used:
- 12640 strings out of 476334
- 193184 string characters out of 5787971
+ 12644 strings out of 476334
+ 193215 string characters out of 5787971
  1888382 words of memory out of 5000000
  32595 multiletter control sequences out of 15000+600000
  530245 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,76p,1033b,713s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\zibli\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\zibli\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\zibli\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1000.pk> <C:\Users\zibli\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\zibli\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\zibli\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2488.pk> <C:\Users\zibli\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\zibli\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/zibli/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on Definitions.pdf (42 pages, 698879 bytes).
+Output written on Definitions.pdf (43 pages, 699186 bytes).
 PDF statistics:
- 1386 PDF objects out of 1440 (max. 8388607)
- 274 named destinations out of 1000 (max. 500000)
+ 1388 PDF objects out of 1440 (max. 8388607)
+ 278 named destinations out of 1000 (max. 500000)
  997 words of extra memory for PDF output out of 10000 (max. 10000000)
 

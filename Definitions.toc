@@ -14,54 +14,54 @@
 \contentsline {section}{\numberline {0.13}Критерий выпуклости в терминах высших производных}{9}{section.0.13}%
 \contentsline {section}{\numberline {0.14}Первообразная}{9}{section.0.14}%
 \contentsline {section}{\numberline {0.15}Неопределенный интеграл, операция интегрирования}{9}{section.0.15}%
-\contentsline {section}{\numberline {0.16}Основные методы интегрирования}{9}{section.0.16}%
+\contentsline {section}{\numberline {0.16}Основные методы интегрирования}{10}{section.0.16}%
 \contentsline {section}{\numberline {0.17}Рациональные функции}{10}{section.0.17}%
 \contentsline {section}{\numberline {0.18}Простые дроби}{10}{section.0.18}%
 \contentsline {section}{\numberline {0.19}Интегрирование простых дробей}{11}{section.0.19}%
 \contentsline {section}{\numberline {0.20}Разложение рациональных дробей на простые}{12}{section.0.20}%
 \contentsline {section}{\numberline {0.21}Метод неопределенных коэффициентов}{12}{section.0.21}%
 \contentsline {section}{\numberline {0.22}Метод Остроградского}{13}{section.0.22}%
-\contentsline {section}{\numberline {0.23}Теорема Чебышева (без доказательства)}{13}{section.0.23}%
+\contentsline {section}{\numberline {0.23}Теорема Чебышева}{13}{section.0.23}%
 \contentsline {section}{\numberline {0.24}Подстановки Эйлера}{13}{section.0.24}%
-\contentsline {section}{\numberline {0.25}Интегральная сумма, интеграл Римана}{13}{section.0.25}%
+\contentsline {section}{\numberline {0.25}Интегральная сумма, интеграл Римана}{14}{section.0.25}%
 \contentsline {section}{\numberline {0.26}База на множестве}{14}{section.0.26}%
-\contentsline {section}{\numberline {0.27}Предел функции по базе (в том числе, для метрических пространств)}{14}{section.0.27}%
+\contentsline {section}{\numberline {0.27}Предел функции по базе (в том числе, для метрических пространств)}{15}{section.0.27}%
 \contentsline {section}{\numberline {0.28}Основные свойства предела по базе}{15}{section.0.28}%
 \contentsline {section}{\numberline {0.29}Связь предела функции по базе с неравенствами}{15}{section.0.29}%
-\contentsline {section}{\numberline {0.30}Критерий Коши существования предела по базе}{15}{section.0.30}%
-\contentsline {section}{\numberline {0.31}Разбиение с отмеченными точками}{15}{section.0.31}%
+\contentsline {section}{\numberline {0.30}Критерий Коши существования предела по базе}{16}{section.0.30}%
+\contentsline {section}{\numberline {0.31}Разбиение с отмеченными точками}{16}{section.0.31}%
 \contentsline {section}{\numberline {0.32}База на множестве разбиений отмеченными точками}{16}{section.0.32}%
-\contentsline {section}{\numberline {0.33}Интегрируемая по Риману функция, интеграл Римана (через предел по базе)}{16}{section.0.33}%
+\contentsline {section}{\numberline {0.33}Интегрируемая по Риману функция, интеграл Римана (через предел по базе)}{17}{section.0.33}%
 \contentsline {section}{\numberline {0.34}Необходимое условие интегрируемости функции}{17}{section.0.34}%
 \contentsline {section}{\numberline {0.35}Суммы Дарбу}{17}{section.0.35}%
 \contentsline {section}{\numberline {0.36}Свойства сумм Дарбу}{17}{section.0.36}%
-\contentsline {section}{\numberline {0.37}Нижний и верхний интегралы Дарбу}{17}{section.0.37}%
-\contentsline {section}{\numberline {0.38}Критерий интегрируемости}{17}{section.0.38}%
+\contentsline {section}{\numberline {0.37}Нижний и верхний интегралы Дарбу}{18}{section.0.37}%
+\contentsline {section}{\numberline {0.38}Критерий интегрируемости}{18}{section.0.38}%
 \contentsline {section}{\numberline {0.39}Колебание функции на отрезке}{18}{section.0.39}%
 \contentsline {section}{\numberline {0.40}Теорема Дарбу}{18}{section.0.40}%
 \contentsline {section}{\numberline {0.41}Интегрируемость непрерывных функций}{18}{section.0.41}%
-\contentsline {section}{\numberline {0.42}Интегрируемость функции с конечным числом точек разрыва}{18}{section.0.42}%
-\contentsline {section}{\numberline {0.43}Интегрируемость монотонных функций}{18}{section.0.43}%
-\contentsline {section}{\numberline {0.44}Свойства интегрируемых функций}{18}{section.0.44}%
+\contentsline {section}{\numberline {0.42}Интегрируемость функции с конечным числом точек разрыва}{19}{section.0.42}%
+\contentsline {section}{\numberline {0.43}Интегрируемость монотонных функций}{19}{section.0.43}%
+\contentsline {section}{\numberline {0.44}Свойства интегрируемых функций}{19}{section.0.44}%
 \contentsline {section}{\numberline {0.45}Аддитивность интеграла Римана}{19}{section.0.45}%
-\contentsline {section}{\numberline {0.46}Монотонность интеграла Римана и ее следствия}{19}{section.0.46}%
+\contentsline {section}{\numberline {0.46}Монотонность интеграла Римана и ее следствия}{20}{section.0.46}%
 \contentsline {section}{\numberline {0.47}Теорема о среднем}{20}{section.0.47}%
 \contentsline {section}{\numberline {0.48}Первая теорема о среднем}{20}{section.0.48}%
-\contentsline {section}{\numberline {0.49}Интеграл Римана как функция верхнего предела интегрирования}{20}{section.0.49}%
-\contentsline {section}{\numberline {0.50}Непрерывность интеграла Римана}{20}{section.0.50}%
-\contentsline {section}{\numberline {0.51}Дифференцируемость интеграла Римана по верхнему пределу и ее следствие}{20}{section.0.51}%
+\contentsline {section}{\numberline {0.49}Интеграл Римана как функция верхнего предела интегрирования}{21}{section.0.49}%
+\contentsline {section}{\numberline {0.50}Непрерывность интеграла Римана}{21}{section.0.50}%
+\contentsline {section}{\numberline {0.51}Дифференцируемость интеграла Римана по верхнему пределу и ее следствие}{21}{section.0.51}%
 \contentsline {section}{\numberline {0.52}Вторая теорема о среднем}{21}{section.0.52}%
-\contentsline {section}{\numberline {0.53}Формула Ньютона-Лейбница для непрерывной функции}{21}{section.0.53}%
-\contentsline {section}{\numberline {0.54}Формула Ньютона-Лейбница для функции, недиффиренцируемой в некоторых (конечное число) точках отрезка. Следствие.}{21}{section.0.54}%
+\contentsline {section}{\numberline {0.53}Формула Ньютона-Лейбница для непрерывной функции}{22}{section.0.53}%
+\contentsline {section}{\numberline {0.54}Формула Ньютона-Лейбница для функции, недиффиренцируемой в некоторых (конечное число) точках отрезка. Следствие.}{22}{section.0.54}%
 \contentsline {section}{\numberline {0.55}Формула интегрирования по частям для определенного интеграла}{22}{section.0.55}%
 \contentsline {section}{\numberline {0.56}Формула Тейлора с остаточным членом в интегральной форме}{22}{section.0.56}%
-\contentsline {section}{\numberline {0.57}Замена переменной в интеграле Римана (для непрерывных функций)}{22}{section.0.57}%
-\contentsline {section}{\numberline {0.58}Замена переменной в интеграле Римана (для интегрируемых функций)}{22}{section.0.58}%
+\contentsline {section}{\numberline {0.57}Замена переменной в интеграле Римана (для непрерывных функций)}{23}{section.0.57}%
+\contentsline {section}{\numberline {0.58}Замена переменной в интеграле Римана (для интегрируемых функций)}{23}{section.0.58}%
 \contentsline {section}{\numberline {0.59}Путь}{23}{section.0.59}%
 \contentsline {section}{\numberline {0.60}Простой путь}{23}{section.0.60}%
-\contentsline {section}{\numberline {0.61}Отношение эквивалентности путей}{23}{section.0.61}%
+\contentsline {section}{\numberline {0.61}Отношение эквивалентности путей}{24}{section.0.61}%
 \contentsline {section}{\numberline {0.62}Носитель пути}{24}{section.0.62}%
-\contentsline {section}{\numberline {0.63}Кривая на множестве}{24}{section.0.63}%
+\contentsline {section}{\numberline {0.63}Кривая на множестве}{25}{section.0.63}%
 \contentsline {section}{\numberline {0.64}Простая кривая}{25}{section.0.64}%
 \contentsline {section}{\numberline {0.65}Параметризация кривой}{25}{section.0.65}%
 \contentsline {section}{\numberline {0.66}Гладкая параметризация кривой}{25}{section.0.66}%
