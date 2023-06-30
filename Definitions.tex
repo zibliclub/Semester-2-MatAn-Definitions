@@ -1168,7 +1168,7 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
 
 \begin{theorem}[формула для вычисления длины кривой]
     Пусть $l$ - гладкая кривая; $\gamma:[a;b]\rightarrow\mathbb{R}^2$ - ее параметризация (гладкая,
-    то есть $\gamma(t) = (x(t);y(t))$, где $x(t)$ и $y(t)$ имеют непрерывные произведения на $[a;b]$).
+    то есть $\gamma(t) = (x(t);y(t))$, где $x(t)$ и $y(t)$ имеют непрерывные производные на $[a;b]$).
     Тогда $l$ - спрямляема и:
     \begin{equation*}
         S(l) = \int_{a}^{b}\sqrt{(x'(t))^2 + (y'(t))^2}dt
@@ -1354,10 +1354,10 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
 
         \item Пусть $f:[a;b]\rightarrow\mathbb{R}$ и $\exists c \in (a;b): \ f$ - неограниченана в точке $c$.
               \begin{equation*}
-                  \int_{a}^{b} f(x) dx = \int_{a}^{c - \epsilon} f(x)dx + \int_{c+\epsilon}^{b}f(x)dx =
+                  \int_{a}^{b} f(x) dx = \underset{\epsilon\rightarrow0}{\lim} \Bigl(\int_{a}^{c - \epsilon} f(x)dx + \int_{c+\epsilon}^{b}f(x)dx \Bigr) =
               \end{equation*}
               \begin{equation*}
-                  \underset{\epsilon\rightarrow0}{\lim}\int_{a}^{c - \epsilon} f(x)dx + \underset{\epsilon}{\lim}
+                  \underset{\epsilon\rightarrow0}{\lim}\int_{a}^{c - \epsilon} f(x)dx + \underset{\epsilon\rightarrow0}{\lim}
                   \int_{c+\epsilon}^{b}f(x)dx.
               \end{equation*}
               Если $\lim$ существует, то интеграл ялвяется сходящимся.
@@ -1412,7 +1412,7 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
 \section{Сходимость несобственного интеграла от неотрицательных функций}
 
 \begin{theorem}[несобственная сходимость интеграла от неотрицательной функции]
-    Пусть $f\in R[a;b]$ для $\forall b \in (a;\omega)$ и $f(x)\leqslant 0 \ \forall x \in [a;\omega).$
+    Пусть $f\in R[a;b]$ для $\forall b \in (a;\omega)$ и $f(x) \geqslant 0 \ \forall x \in [a;\omega).$
 
     $\int_{a}^{\omega}f(x)dx$ сходится $\iff \exists M > 0: \ \forall b \in (a;\omega)$
     \begin{equation*}
@@ -1476,7 +1476,7 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
 \section{Условно сходящийся несобственный интеграл}
 
 \begin{definition}
-    Если $\int_{a}^{\omega}| f(x) |dx$ расходится, а $\int_{a}^{\omega}f(x)dx$ сходится, то $\int_{a}^{\omega}$
+    Если $\int_{a}^{\omega}| f(x) |dx$ расходится, а $\int_{a}^{\omega}f(x)dx$ сходится, то $\int_{a}^{\omega}f(x)dx$
     называется \textbf{условно сходящимся}.
 \end{definition}
 
@@ -1532,7 +1532,7 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
         \item $<X,+>$ - абелева группа;
         \item
               \begin{enumerate}
-                  \item $\forall \alpha,\beta \in K$ и $\forall x \in X \quad (\alpha\beta)x = \alpha(\beta X)$,
+                  \item $\forall \alpha,\beta \in K$ и $\forall x \in X \quad (\alpha\beta)x = \alpha(\beta x)$,
                   \item $\forall x,y \in X, \ \forall \alpha \in K \quad \alpha (x+y) = \alpha x + \alpha y$,
                   \item $\forall \alpha,\beta \in K, \forall x \in X \quad (\alpha + \beta)x = \alpha x + \beta x$,
                   \item $\forall x \in X, \ 1 \in K \quad 1x = x$.
@@ -1625,10 +1625,8 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
 
 \section{Метрика ЛНП}
 
-ЛНП ($C[a;b], || x || (*)$) образначается $C^p[a;b]$.
-
 \begin{statement}
-    Пусть $(X,|| * ||)$ - ЛНП. Тогда функция $\rho X \times X \rightarrow \mathbb{R}$, опредленная $\rho(x,y)
+    Пусть $(X,|| * ||)$ - ЛНП. Тогда функция $\rho: X \times X \rightarrow \mathbb{R}$, опредленная $\rho(x,y)
         = || x-y ||$, является метрикой ЛНП.
 \end{statement}
 
@@ -1685,7 +1683,7 @@ $x$ (в том числе при $x^{0}$) получим $n$ уравнений 
 
 \begin{definition}
     Множество $E$ в метрическом пространстве называется \textbf{предкомпактным} (\textbf{относительно компактным}),
-    если ее замыкание $\overline{E}$ компактно.
+    если его замыкание $\overline{E}$ компактно.
 \end{definition}
 
 \section{Вполне ограниченное множество}
